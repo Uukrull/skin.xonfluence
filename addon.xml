@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
-  id="skin.xonfluence"
+  id="skin.xonfluence-Krypton"
   version="3.2.3"
-  name="Xonfluence"
+  name="Xonfluence for Krypton"
   provider-name="Helly">
   <requires>
     <import addon="xbmc.gui" version="5.11.0"/>
