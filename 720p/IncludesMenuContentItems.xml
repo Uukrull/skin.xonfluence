@@ -1267,7 +1267,7 @@
 				<description>In Progress TVShows</description>
 				<label>$LOCALIZE[575] $LOCALIZE[31424]</label>
 				<include>ClearButtonChoice</include>
-				<onclick>Skin.SetString($INFO[Window(Home).Property(UsrSelectBtn)].Path,ActivateWindow(Videos,library://video/inprogressshows.xml/,return))</onclick>
+				<onclick>Skin.SetString($INFO[Window(Home).Property(UsrSelectBtn)].Path,ActivateWindow(Videos,InProgressTvShows,return))</onclick>
 				<onclick>Skin.SetString($INFO[Window(Home).Property(UsrSelectBtn)].Label,$LOCALIZE[575])</onclick>
 				<onclick condition="Window.IsVisible(2114)">Skin.SetString($INFO[Window(Home).Property(UsrSelectBtn)].Sub,TVShows)</onclick>
 				<onclick condition="Window.IsVisible(2114)">Skin.SetString($INFO[Window(Home).Property(UsrSelectBtn)].Addon,None)</onclick>
