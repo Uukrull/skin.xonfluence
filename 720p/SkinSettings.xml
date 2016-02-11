@@ -231,13 +231,13 @@
 					<height>530</height>
 					<include name="SkinSettingsSubMenuButtons">
 						<param name="Id">9199</param>
-    					<param name="Control">9001</param>
-   						<param name="Up">9101</param>
+						<param name="Control">9001</param>
+						<param name="Up">9101</param>
 						<param name="Down">9101</param>
 					</include>
 					<control type="list" id="9001">
 						<include name="SkinSettingsSubMenuList">
-    						<param name="Control">9001</param>
+							<param name="Control">9001</param>
 							<param name="Right">9101</param>
 							<param name="Label">$LOCALIZE[31336]$LOCALIZE[31001]</param>
 						</include>
@@ -1206,11 +1206,11 @@
 								<texturefocus colordiffuse="$VAR[MainColorOne]">MenuItemFO.png</texturefocus>
 								<texturenofocus>MenuItemNF.png</texturenofocus>
 								<onclick condition="IsEmpty(Skin.String(OSDBtnUsrCmd))">Skin.SetString(OSDBtnUsrCmd,AspectRatio)</onclick>
-							    <onclick condition="Skin.String(OSDBtnUsrCmd,AspectRatio)">Skin.SetString(OSDBtnUsrCmd,UserSelect)</onclick>
+								<onclick condition="Skin.String(OSDBtnUsrCmd,AspectRatio)">Skin.SetString(OSDBtnUsrCmd,UserSelect)</onclick>
 								<onclick condition="Skin.String(OSDBtnUsrCmd,UserSelect)">Skin.Reset(OSDBtnUsrCmd)</onclick>
 							</control>
 							<control type="button" id="184">
-							    <description>Usr OSD Magic User Select</description>
+								<description>Usr OSD Magic User Select</description>
 								<width>750</width>
 								<height>40</height>
 								<font>font13</font>
@@ -1432,13 +1432,13 @@
 					<height>530</height>
 					<include name="SkinSettingsSubMenuButtons">
 						<param name="Id">9299</param>
-    					<param name="Control">9002</param>
-   						<param name="Up">9201</param>
+						<param name="Control">9002</param>
+						<param name="Up">9201</param>
 						<param name="Down">9201</param>
 					</include>
 					<control type="list" id="9002">
 						<include name="SkinSettingsSubMenuList">
-    						<param name="Control">9002</param>
+							<param name="Control">9002</param>
 							<param name="Right">9201</param>
 							<param name="Label">$LOCALIZE[31336]$LOCALIZE[31001]</param>
 						</include>
@@ -3123,13 +3123,13 @@
 					<height>530</height>
 					<include name="SkinSettingsSubMenuButtons">
 						<param name="Id">9399</param>
-    					<param name="Control">9003</param>
-   						<param name="Up">9301</param>
+						<param name="Control">9003</param>
+						<param name="Up">9301</param>
 						<param name="Down">9301</param>
 					</include>
 					<control type="list" id="9003">
 						<include name="SkinSettingsSubMenuList">
-    						<param name="Control">9003</param>
+							<param name="Control">9003</param>
 							<param name="Right">9301</param>
 							<param name="Label">$LOCALIZE[31336]$LOCALIZE[31001]</param>
 						</include>
@@ -5519,13 +5519,13 @@
 					<height>530</height>
 					<include name="SkinSettingsSubMenuButtons">
 						<param name="Id">9499</param>
-    					<param name="Control">9004</param>
-   						<param name="Up">9401</param>
+						<param name="Control">9004</param>
+						<param name="Up">9401</param>
 						<param name="Down">9401</param>
 					</include>
 					<control type="list" id="9004">
 						<include name="SkinSettingsSubMenuList">
-    						<param name="Control">9004</param>
+							<param name="Control">9004</param>
 							<param name="Right">9401</param>
 							<param name="Label">$LOCALIZE[31336]$LOCALIZE[31001]</param>
 						</include>
@@ -6974,13 +6974,13 @@
 					<visible>Container(9000).Hasfocus(5)</visible>
 					<include name="SkinSettingsSubMenuButtons">
 						<param name="Id">504</param>
-    					<param name="Control">9005</param>
-   						<param name="Up">507</param>
+						<param name="Control">9005</param>
+						<param name="Up">507</param>
 						<param name="Down">500</param>
 					</include>
 					<control type="list" id="9005">
 						<include name="SkinSettingsSubMenuList">
-    						<param name="Control">9005</param>
+							<param name="Control">9005</param>
 							<param name="Right">500</param>
 							<param name="Label">$LOCALIZE[31434]</param>
 						</include>
@@ -8647,13 +8647,13 @@
 					<height>530</height>
 					<include name="SkinSettingsSubMenuButtons">
 						<param name="Id">9699</param>
-    					<param name="Control">9006</param>
-   						<param name="Up">9601</param>
+						<param name="Control">9006</param>
+						<param name="Up">9601</param>
 						<param name="Down">9601</param>
 					</include>
 					<control type="list" id="9006">
 						<include name="SkinSettingsSubMenuList">
-    						<param name="Control">9006</param>
+							<param name="Control">9006</param>
 							<param name="Right">9601</param>
 							<param name="Label">$LOCALIZE[31336]$LOCALIZE[31001]</param>
 						</include>

@@ -390,15 +390,15 @@
 				<visible>MusicPlayer.Content(LiveTV)</visible>	
 			</control>
 			<control type="button" id="206">
-                <width>55</width>
-                <height>55</height>
-                <label>264</label>
-                <font>-</font>
-                <texturefocus colordiffuse="$VAR[MainColorTwo]">OSDRecordOffFO.png</texturefocus>
-                <texturenofocus>OSDRecordOffNF.png</texturenofocus>
-                <onclick>RunPlugin(plugin://plugin.program.dreamcatcher/?mode=Record)</onclick>
-                <visible>!VideoPlayer.Content(LiveTV) + System.HasAddon(plugin.program.dreamcatcher)</visible>
-            </control>
+				<width>55</width>
+				<height>55</height>
+				<label>264</label>
+				<font>-</font>
+				<texturefocus colordiffuse="$VAR[MainColorTwo]">OSDRecordOffFO.png</texturefocus>
+				<texturenofocus>OSDRecordOffNF.png</texturenofocus>
+				<onclick>RunPlugin(plugin://plugin.program.dreamcatcher/?mode=Record)</onclick>
+				<visible>!VideoPlayer.Content(LiveTV) + System.HasAddon(plugin.program.dreamcatcher)</visible>
+			</control>
 		</control>
 	</controls>
 </window>

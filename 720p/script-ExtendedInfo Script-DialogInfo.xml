@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <window>
-    <defaultcontrol always="true">5001</defaultcontrol>
-    <controls>
+	<defaultcontrol always="true">5001</defaultcontrol>
+	<controls>
 		<!-- live image background -->
 		<control type="image">
 			<depth>DepthBackground</depth>
@@ -69,7 +69,7 @@
 		<!-- Main Layout -->
 		<!-- default: info 2 like view (no full background) -->
 		<!-- alternative: fanart like view -->
-        <control type="group">
+		<control type="group">
 			<control type="group">
 				<include>VisibleFadeEffect</include>
 				<control type="list" id="5001">
@@ -198,33 +198,33 @@
 								<scroll>false</scroll>
 							</control>
 							<control type="image">
-    	                        <width>25</width>
-    	                        <height>25</height>
-    	                        <top>0</top>
-    	                        <left>118</left>
-    	                        <texture>special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/local.png</texture>
+								<width>25</width>
+								<height>25</height>
+								<top>0</top>
+								<left>118</left>
+								<texture>special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/local.png</texture>
 								<visible>!IsEmpty(ListItem.Property(DBID))</visible>
-    	                    </control>
+							</control>
 							<control type="image">
-    	                        <width>35</width>
-    	                        <height>20</height>
-    	                        <top>5</top>
-    	                        <left>53</left>
-    	                        <texture>black-back.png</texture>
-    	                        <visible>!IsEmpty(ListItem.Year)</visible>
-    	                    </control>
-    	                    <control type="label">
-    	                        <width>35</width>
-    	                        <height>20</height>
-    	                        <top>5</top>
-    	                        <align>center</align>
-    	                        <aligny>center</aligny>
-    	                        <left>53</left>
-    	                        <font>font10</font>
-    	                        <textcolor>white</textcolor>
-    	                        <label>$INFO[ListItem.Year]</label>
-    	                        <visible>!IsEmpty(ListItem.Year)</visible>
-    	                    </control>
+								<width>35</width>
+								<height>20</height>
+								<top>5</top>
+								<left>53</left>
+								<texture>black-back.png</texture>
+								<visible>!IsEmpty(ListItem.Year)</visible>
+							</control>
+							<control type="label">
+								<width>35</width>
+								<height>20</height>
+								<top>5</top>
+								<align>center</align>
+								<aligny>center</aligny>
+								<left>53</left>
+								<font>font10</font>
+								<textcolor>white</textcolor>
+								<label>$INFO[ListItem.Year]</label>
+								<visible>!IsEmpty(ListItem.Year)</visible>
+							</control>
 						</itemlayout>
 						<focusedlayout height="186" width="193">
 							<control type="image">
@@ -251,33 +251,33 @@
 								<scroll>true</scroll>
 							</control>
 							<control type="image">
-    	                        <width>25</width>
-    	                        <height>25</height>
-    	                        <top>0</top>
-    	                        <left>118</left>
-    	                        <texture>special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/local.png</texture>
-    	                        <visible>!IsEmpty(ListItem.Property(DBID))</visible>
-    	                    </control>
+								<width>25</width>
+								<height>25</height>
+								<top>0</top>
+								<left>118</left>
+								<texture>special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/local.png</texture>
+								<visible>!IsEmpty(ListItem.Property(DBID))</visible>
+							</control>
 							<control type="image">
-    	                        <width>35</width>
-    	                        <height>20</height>
-    	                        <top>5</top>
-    	                        <left>53</left>
-    	                        <texture>black-back.png</texture>
-    	                        <visible>!IsEmpty(ListItem.Year)</visible>
-    	                    </control>
-    	                    <control type="label">
-    	                        <width>35</width>
-    	                        <height>20</height>
-    	                        <top>5</top>
-    	                        <align>center</align>
-    	                        <aligny>center</aligny>
-    	                        <left>53</left>
-    	                        <font>font10</font>
-    	                        <textcolor>white</textcolor>
-    	                        <label>$INFO[ListItem.Year]</label>
-    	                        <visible>!IsEmpty(ListItem.Year)</visible>
-    	                    </control>
+								<width>35</width>
+								<height>20</height>
+								<top>5</top>
+								<left>53</left>
+								<texture>black-back.png</texture>
+								<visible>!IsEmpty(ListItem.Year)</visible>
+							</control>
+							<control type="label">
+								<width>35</width>
+								<height>20</height>
+								<top>5</top>
+								<align>center</align>
+								<aligny>center</aligny>
+								<left>53</left>
+								<font>font10</font>
+								<textcolor>white</textcolor>
+								<label>$INFO[ListItem.Year]</label>
+								<visible>!IsEmpty(ListItem.Year)</visible>
+							</control>
 						</focusedlayout>
 					</control>
 					<control type="panel" id="250">
@@ -313,33 +313,33 @@
 								<scroll>false</scroll>
 							</control>
 							<control type="image">
-    	                        <width>25</width>
-    	                        <height>25</height>
-    	                        <top>0</top>
-    	                        <left>118</left>
-    	                        <texture>special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/local.png</texture>
-    	                        <visible>!IsEmpty(ListItem.Property(DBID))</visible>
-    	                    </control>
+								<width>25</width>
+								<height>25</height>
+								<top>0</top>
+								<left>118</left>
+								<texture>special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/local.png</texture>
+								<visible>!IsEmpty(ListItem.Property(DBID))</visible>
+							</control>
 							<control type="image">
-    	                        <width>35</width>
-    	                        <height>20</height>
-    	                        <top>5</top>
-    	                        <left>53</left>
-    	                        <texture>black-back.png</texture>
-    	                        <visible>!IsEmpty(ListItem.Year)</visible>
-    	                    </control>
-    	                    <control type="label">
-    	                        <width>35</width>
-    	                        <height>20</height>
-    	                        <top>5</top>
-    	                        <align>center</align>
-    	                        <aligny>center</aligny>
-    	                        <left>53</left>
-    	                        <font>font10</font>
-    	                        <textcolor>white</textcolor>
-    	                        <label>$INFO[ListItem.Year]</label>
-    	                        <visible>!IsEmpty(ListItem.Year)</visible>
-    	                    </control>
+								<width>35</width>
+								<height>20</height>
+								<top>5</top>
+								<left>53</left>
+								<texture>black-back.png</texture>
+								<visible>!IsEmpty(ListItem.Year)</visible>
+							</control>
+							<control type="label">
+								<width>35</width>
+								<height>20</height>
+								<top>5</top>
+								<align>center</align>
+								<aligny>center</aligny>
+								<left>53</left>
+								<font>font10</font>
+								<textcolor>white</textcolor>
+								<label>$INFO[ListItem.Year]</label>
+								<visible>!IsEmpty(ListItem.Year)</visible>
+							</control>
 						</itemlayout>
 						<focusedlayout height="186" width="193">
 							<control type="image">
@@ -366,33 +366,33 @@
 								<scroll>true</scroll>
 							</control>
 							<control type="image">
-    	                        <width>25</width>
-    	                        <height>25</height>
-    	                        <top>0</top>
-    	                        <left>118</left>
-    	                        <texture>special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/local.png</texture>
-    	                        <visible>!IsEmpty(ListItem.Property(DBID))</visible>
-    	                    </control>
+								<width>25</width>
+								<height>25</height>
+								<top>0</top>
+								<left>118</left>
+								<texture>special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/local.png</texture>
+								<visible>!IsEmpty(ListItem.Property(DBID))</visible>
+							</control>
 							<control type="image">
-    	                        <width>35</width>
-    	                        <height>20</height>
-    	                        <top>5</top>
-    	                        <left>53</left>
-    	                        <texture>black-back.png</texture>
-    	                        <visible>!IsEmpty(ListItem.Year)</visible>
-    	                    </control>
-    	                    <control type="label">
-    	                        <width>35</width>
-    	                        <height>20</height>
-    	                        <top>5</top>
-    	                        <align>center</align>
-    	                        <aligny>center</aligny>
-    	                        <left>53</left>
-    	                        <font>font10</font>
-    	                        <textcolor>white</textcolor>
-    	                        <label>$INFO[ListItem.Year]</label>
-    	                        <visible>!IsEmpty(ListItem.Year)</visible>
-    	                    </control>
+								<width>35</width>
+								<height>20</height>
+								<top>5</top>
+								<left>53</left>
+								<texture>black-back.png</texture>
+								<visible>!IsEmpty(ListItem.Year)</visible>
+							</control>
+							<control type="label">
+								<width>35</width>
+								<height>20</height>
+								<top>5</top>
+								<align>center</align>
+								<aligny>center</aligny>
+								<left>53</left>
+								<font>font10</font>
+								<textcolor>white</textcolor>
+								<label>$INFO[ListItem.Year]</label>
+								<visible>!IsEmpty(ListItem.Year)</visible>
+							</control>
 						</focusedlayout>
 					</control>
 					<control type="panel" id="550">
@@ -428,33 +428,33 @@
 								<scroll>false</scroll>
 							</control>
 							<control type="image">
-    	                        <width>25</width>
-    	                        <height>25</height>
-    	                        <top>0</top>
-    	                        <left>118</left>
-    	                        <texture>special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/local.png</texture>
-    	                        <visible>!IsEmpty(ListItem.Property(DBID))</visible>
-    	                    </control>
+								<width>25</width>
+								<height>25</height>
+								<top>0</top>
+								<left>118</left>
+								<texture>special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/local.png</texture>
+								<visible>!IsEmpty(ListItem.Property(DBID))</visible>
+							</control>
 							<control type="image">
-    	                        <width>35</width>
-    	                        <height>20</height>
-    	                        <top>5</top>
-    	                        <left>53</left>
-    	                        <texture>black-back.png</texture>
-    	                        <visible>!IsEmpty(ListItem.Year)</visible>
-    	                    </control>
-    	                    <control type="label">
-    	                        <width>35</width>
-    	                        <height>20</height>
-    	                        <top>5</top>
-    	                        <align>center</align>
-    	                        <aligny>center</aligny>
-    	                        <left>53</left>
-    	                        <font>font10</font>
-    	                        <textcolor>white</textcolor>
-    	                        <label>$INFO[ListItem.Year]</label>
-    	                        <visible>!IsEmpty(ListItem.Year)</visible>
-    	                    </control>
+								<width>35</width>
+								<height>20</height>
+								<top>5</top>
+								<left>53</left>
+								<texture>black-back.png</texture>
+								<visible>!IsEmpty(ListItem.Year)</visible>
+							</control>
+							<control type="label">
+								<width>35</width>
+								<height>20</height>
+								<top>5</top>
+								<align>center</align>
+								<aligny>center</aligny>
+								<left>53</left>
+								<font>font10</font>
+								<textcolor>white</textcolor>
+								<label>$INFO[ListItem.Year]</label>
+								<visible>!IsEmpty(ListItem.Year)</visible>
+							</control>
 						</itemlayout>
 						<focusedlayout height="186" width="193">
 							<control type="image">
@@ -481,33 +481,33 @@
 								<scroll>true</scroll>
 							</control>
 							<control type="image">
-    	                        <width>25</width>
-    	                        <height>25</height>
-    	                        <top>0</top>
-    	                        <left>118</left>
-    	                        <texture>special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/local.png</texture>
-    	                        <visible>!IsEmpty(ListItem.Property(DBID))</visible>
-    	                    </control>
+								<width>25</width>
+								<height>25</height>
+								<top>0</top>
+								<left>118</left>
+								<texture>special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/local.png</texture>
+								<visible>!IsEmpty(ListItem.Property(DBID))</visible>
+							</control>
 							<control type="image">
-    	                        <width>35</width>
-    	                        <height>20</height>
-    	                        <top>5</top>
-    	                        <left>53</left>
-    	                        <texture>black-back.png</texture>
-    	                        <visible>!IsEmpty(ListItem.Year)</visible>
-    	                    </control>
-    	                    <control type="label">
-    	                        <width>35</width>
-    	                        <height>20</height>
-    	                        <top>5</top>
-    	                        <align>center</align>
-    	                        <aligny>center</aligny>
-    	                        <left>53</left>
-    	                        <font>font10</font>
-    	                        <textcolor>white</textcolor>
-    	                        <label>$INFO[ListItem.Year]</label>
-    	                        <visible>!IsEmpty(ListItem.Year)</visible>
-    	                    </control>
+								<width>35</width>
+								<height>20</height>
+								<top>5</top>
+								<left>53</left>
+								<texture>black-back.png</texture>
+								<visible>!IsEmpty(ListItem.Year)</visible>
+							</control>
+							<control type="label">
+								<width>35</width>
+								<height>20</height>
+								<top>5</top>
+								<align>center</align>
+								<aligny>center</aligny>
+								<left>53</left>
+								<font>font10</font>
+								<textcolor>white</textcolor>
+								<label>$INFO[ListItem.Year]</label>
+								<visible>!IsEmpty(ListItem.Year)</visible>
+							</control>
 						</focusedlayout>
 					</control>
 					<control type="panel" id="650">
@@ -543,33 +543,33 @@
 								<scroll>false</scroll>
 							</control>
 							<control type="image">
-    	                        <width>25</width>
-    	                        <height>25</height>
-    	                        <top>0</top>
-    	                        <left>118</left>
-    	                        <texture>special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/local.png</texture>
-    	                        <visible>!IsEmpty(ListItem.Property(DBID))</visible>
-    	                    </control>
+								<width>25</width>
+								<height>25</height>
+								<top>0</top>
+								<left>118</left>
+								<texture>special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/local.png</texture>
+								<visible>!IsEmpty(ListItem.Property(DBID))</visible>
+							</control>
 							<control type="image">
-    	                        <width>35</width>
-    	                        <height>20</height>
-    	                        <top>5</top>
-    	                        <left>53</left>
-    	                        <texture>black-back.png</texture>
-    	                        <visible>!IsEmpty(ListItem.Year)</visible>
-    	                    </control>
-    	                    <control type="label">
-    	                        <width>35</width>
-    	                        <height>20</height>
-    	                        <top>5</top>
-    	                        <align>center</align>
-    	                        <aligny>center</aligny>
-    	                        <left>53</left>
-    	                        <font>font10</font>
-    	                        <textcolor>white</textcolor>
-    	                        <label>$INFO[ListItem.Year]</label>
-    	                        <visible>!IsEmpty(ListItem.Year)</visible>
-    	                    </control>
+								<width>35</width>
+								<height>20</height>
+								<top>5</top>
+								<left>53</left>
+								<texture>black-back.png</texture>
+								<visible>!IsEmpty(ListItem.Year)</visible>
+							</control>
+							<control type="label">
+								<width>35</width>
+								<height>20</height>
+								<top>5</top>
+								<align>center</align>
+								<aligny>center</aligny>
+								<left>53</left>
+								<font>font10</font>
+								<textcolor>white</textcolor>
+								<label>$INFO[ListItem.Year]</label>
+								<visible>!IsEmpty(ListItem.Year)</visible>
+							</control>
 						</itemlayout>
 						<focusedlayout height="186" width="193">
 							<control type="image">
@@ -596,33 +596,33 @@
 								<scroll>true</scroll>
 							</control>
 							<control type="image">
-    	                        <width>25</width>
-    	                        <height>25</height>
-    	                        <top>0</top>
-    	                        <left>118</left>
-    	                        <texture>special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/local.png</texture>
-    	                        <visible>!IsEmpty(ListItem.Property(DBID))</visible>
-    	                    </control>
+								<width>25</width>
+								<height>25</height>
+								<top>0</top>
+								<left>118</left>
+								<texture>special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/local.png</texture>
+								<visible>!IsEmpty(ListItem.Property(DBID))</visible>
+							</control>
 							<control type="image">
-    	                        <width>35</width>
-    	                        <height>20</height>
-    	                        <top>5</top>
-    	                        <left>53</left>
-    	                        <texture>black-back.png</texture>
-    	                        <visible>!IsEmpty(ListItem.Year)</visible>
-    	                    </control>
-    	                    <control type="label">
-    	                        <width>35</width>
-    	                        <height>20</height>
-    	                        <top>5</top>
-    	                        <align>center</align>
-    	                        <aligny>center</aligny>
-    	                        <left>53</left>
-    	                        <font>font10</font>
-    	                        <textcolor>white</textcolor>
-    	                        <label>$INFO[ListItem.Year]</label>
-    	                        <visible>!IsEmpty(ListItem.Year)</visible>
-    	                    </control>
+								<width>35</width>
+								<height>20</height>
+								<top>5</top>
+								<left>53</left>
+								<texture>black-back.png</texture>
+								<visible>!IsEmpty(ListItem.Year)</visible>
+							</control>
+							<control type="label">
+								<width>35</width>
+								<height>20</height>
+								<top>5</top>
+								<align>center</align>
+								<aligny>center</aligny>
+								<left>53</left>
+								<font>font10</font>
+								<textcolor>white</textcolor>
+								<label>$INFO[ListItem.Year]</label>
+								<visible>!IsEmpty(ListItem.Year)</visible>
+							</control>
 						</focusedlayout>
 					</control>
 					<control type="panel" id="350">
@@ -802,34 +802,34 @@
 					<left>910</left>
 					<top>90</top>
 					<control type="image">
-                		<texture>special://home/addons/script.extendedinfo/resources/skins/Default/media/moviedb.png</texture>
-                		<left>20</left>
-                		<top>20</top>
-                		<width>260</width>
-                		<height>200</height>
-                		<aspectratio align="left">keep</aspectratio>
-                		<animation type="WindowOpen" reversible="false">
-                    		<effect type="slide" start="0,-1000" end="0,0" delay="0" tween="sine" time="1000" />
-                    		<effect type="fade" start="0" end="100" delay="0" tween="sine" time="2000" />
-                    		<effect type="rotatex" start="0" end="75" delay="3000" center="300,0" tween="sine" time="750" />
-                    		<effect type="fade" start="100" end="0" delay="3750" time="0" />
-                		</animation>
-            		</control>
-		            <control type="image">
-        		        <texture>$INFO[Window.Property(thumb)]</texture>
-        		        <left>0</left>
-        		        <top>20</top>
-        		        <width>300</width>
-        		        <height>200</height>
-        		        <fadetime>600</fadetime>
+						<texture>special://home/addons/script.extendedinfo/resources/skins/Default/media/moviedb.png</texture>
+						<left>20</left>
+						<top>20</top>
+						<width>260</width>
+						<height>200</height>
+						<aspectratio align="left">keep</aspectratio>
+						<animation type="WindowOpen" reversible="false">
+							<effect type="slide" start="0,-1000" end="0,0" delay="0" tween="sine" time="1000" />
+							<effect type="fade" start="0" end="100" delay="0" tween="sine" time="2000" />
+							<effect type="rotatex" start="0" end="75" delay="3000" center="300,0" tween="sine" time="750" />
+							<effect type="fade" start="100" end="0" delay="3750" time="0" />
+						</animation>
+					</control>
+					<control type="image">
+						<texture>$INFO[Window.Property(thumb)]</texture>
+						<left>0</left>
+						<top>20</top>
+						<width>300</width>
+						<height>200</height>
+						<fadetime>600</fadetime>
 						<bordertexture border="8">ThumbShadow.png</bordertexture>
 						<bordersize>9</bordersize>
-        		        <aspectratio>scale</aspectratio>
-        		        <animation type="WindowOpen" reversible="false">
-        		            <effect type="rotatex" start="75" end="0" delay="3750" center="300,0" tween="sine" time="750" />
-        		            <effect type="fade" start="0" end="100" delay="3750" time="0" />
-        		        </animation>
-        		    </control>
+						<aspectratio>scale</aspectratio>
+						<animation type="WindowOpen" reversible="false">
+							<effect type="rotatex" start="75" end="0" delay="3750" center="300,0" tween="sine" time="750" />
+							<effect type="fade" start="0" end="100" delay="3750" time="0" />
+						</animation>
+					</control>
 					<control type="label">
 						<description>Show Title txt</description>
 						<left>10</left>
@@ -850,99 +850,99 @@
 						<height>400</height>
 						<width>310</width>
 						<itemgap>20</itemgap>
-                  	  	<scrolltime tween="sine">400</scrolltime>
-                    	<orientation>vertical</orientation>
-                    	<usecontrolcoords>true</usecontrolcoords>
+						<scrolltime tween="sine">400</scrolltime>
+						<orientation>vertical</orientation>
+						<usecontrolcoords>true</usecontrolcoords>
 						<control type="label">
 							<left>5</left>
-	                        <align>left</align>
-    	                    <textcolor>$VAR[MainColorOne]</textcolor>
-    	                    <font>font12</font>
-    	                    <label>$INFO[Window.Property(AlsoKnownAs),$ADDON[script.extendedinfo 32016]: [COLOR=white],[/COLOR]]</label>
-    	                    <visible>!isEmpty(Window.Property(AlsoKnownAs))</visible>
-    	                </control>
-    	                <control type="label">
+							<align>left</align>
+							<textcolor>$VAR[MainColorOne]</textcolor>
+							<font>font12</font>
+							<label>$INFO[Window.Property(AlsoKnownAs),$ADDON[script.extendedinfo 32016]: [COLOR=white],[/COLOR]]</label>
+							<visible>!isEmpty(Window.Property(AlsoKnownAs))</visible>
+						</control>
+						<control type="label">
 							<left>5</left>
-    	                    <align>left</align>
-    	                    <textcolor>$VAR[MainColorOne]</textcolor>
-    	                    <font>font12</font>
-    	                    <label>$INFO[Window.Property(Birthday),$ADDON[script.extendedinfo 32012]: [COLOR=white],[/COLOR]] $INFO[Window.Property(Age),$ADDON[script.extendedinfo 32020]: [COLOR=white],[/COLOR]]</label>
-    	                    <visible>!isEmpty(Window.Property(Birthday))</visible>
-    	                </control>
-    	                <control type="label">
+							<align>left</align>
+							<textcolor>$VAR[MainColorOne]</textcolor>
+							<font>font12</font>
+							<label>$INFO[Window.Property(Birthday),$ADDON[script.extendedinfo 32012]: [COLOR=white],[/COLOR]] $INFO[Window.Property(Age),$ADDON[script.extendedinfo 32020]: [COLOR=white],[/COLOR]]</label>
+							<visible>!isEmpty(Window.Property(Birthday))</visible>
+						</control>
+						<control type="label">
 							<left>5</left>
-    	                    <align>left</align>
-    	                    <textcolor>$VAR[MainColorOne]</textcolor>
-    	                    <font>font12</font>
-    	                    <label>$INFO[Window.Property(PlaceOfBirth),$ADDON[script.extendedinfo 32014]: [COLOR=white],[/COLOR]]</label>
-    	                    <visible>!isEmpty(Window.Property(PlaceOfBirth))</visible>
-    	                </control>
-    	                <control type="label">
+							<align>left</align>
+							<textcolor>$VAR[MainColorOne]</textcolor>
+							<font>font12</font>
+							<label>$INFO[Window.Property(PlaceOfBirth),$ADDON[script.extendedinfo 32014]: [COLOR=white],[/COLOR]]</label>
+							<visible>!isEmpty(Window.Property(PlaceOfBirth))</visible>
+						</control>
+						<control type="label">
 							<left>5</left>
-    	                    <align>left</align>
-    	                    <textcolor>$VAR[MainColorOne]</textcolor>
-    	                    <font>font12</font>
-    	                    <label>$INFO[Window.Property(TotalMovies),$ADDON[script.extendedinfo 32011]: [COLOR=white],[/COLOR]]</label>
-    	                    <visible>!isEmpty(Window.Property(TotalMovies))</visible>
-    	                </control>
-    	                <control type="label">
+							<align>left</align>
+							<textcolor>$VAR[MainColorOne]</textcolor>
+							<font>font12</font>
+							<label>$INFO[Window.Property(TotalMovies),$ADDON[script.extendedinfo 32011]: [COLOR=white],[/COLOR]]</label>
+							<visible>!isEmpty(Window.Property(TotalMovies))</visible>
+						</control>
+						<control type="label">
 							<left>5</left>
-    	                    <align>left</align>
-    	                    <textcolor>$VAR[MainColorOne]</textcolor>
-    	                    <font>font12</font>
-    	                    <label>$INFO[Window.Property(DBMovies),$ADDON[script.extendedinfo 32021]: [COLOR=white],[/COLOR]]</label>
-    	                    <visible>!isEmpty(Window.Property(DBMovies))</visible>
-    	                </control>
-    	                <control type="label">
+							<align>left</align>
+							<textcolor>$VAR[MainColorOne]</textcolor>
+							<font>font12</font>
+							<label>$INFO[Window.Property(DBMovies),$ADDON[script.extendedinfo 32021]: [COLOR=white],[/COLOR]]</label>
+							<visible>!isEmpty(Window.Property(DBMovies))</visible>
+						</control>
+						<control type="label">
 							<left>5</left>
-    	                    <align>left</align>
-    	                    <textcolor>$VAR[MainColorOne]</textcolor>
-    	                    <font>font12</font>
-    	                    <label>$INFO[Window.Property(Homepage),$ADDON[script.extendedinfo 32017]: [COLOR=white],[/COLOR]]</label>
-    	                    <visible>!isEmpty(Window.Property(Homepage))</visible>
-    	                </control>
-    	                <control type="label">
+							<align>left</align>
+							<textcolor>$VAR[MainColorOne]</textcolor>
+							<font>font12</font>
+							<label>$INFO[Window.Property(Homepage),$ADDON[script.extendedinfo 32017]: [COLOR=white],[/COLOR]]</label>
+							<visible>!isEmpty(Window.Property(Homepage))</visible>
+						</control>
+						<control type="label">
 							<left>5</left>
-    	                    <align>left</align>
-    	                    <textcolor>$VAR[MainColorOne]</textcolor>
-    	                    <font>font12</font>
-    	                    <label>$INFO[Window.Property(Deathday),$ADDON[script.extendedinfo 32013]: [COLOR=white],[/COLOR]]</label>
-    	                    <visible>!isEmpty(Window.Property(Deathday))</visible>
-    	                </control>
-    	                <control type="group" id="140">
-    	                    <height>210</height>
-    	                    <control type="button" id="132">
-    	                        <posx>0</posx>
-    	                        <posy>5</posy>
-    	                        <width>310</width>
-    	                        <height>210</height>
-    	                        <radioposx>30</radioposx>
-    	                        <radioposy>20</radioposy>
-    	                        <radiowidth>46</radiowidth>
-    	                        <radioheight>46</radioheight>
-    	                        <onup>SetFocus(20000)</onup>
-    	                        <ondown>150</ondown>
+							<align>left</align>
+							<textcolor>$VAR[MainColorOne]</textcolor>
+							<font>font12</font>
+							<label>$INFO[Window.Property(Deathday),$ADDON[script.extendedinfo 32013]: [COLOR=white],[/COLOR]]</label>
+							<visible>!isEmpty(Window.Property(Deathday))</visible>
+						</control>
+						<control type="group" id="140">
+							<height>210</height>
+							<control type="button" id="132">
+								<posx>0</posx>
+								<posy>5</posy>
+								<width>310</width>
+								<height>210</height>
+								<radioposx>30</radioposx>
+								<radioposy>20</radioposy>
+								<radiowidth>46</radiowidth>
+								<radioheight>46</radioheight>
+								<onup>SetFocus(20000)</onup>
+								<ondown>150</ondown>
 								<onleft>60</onleft>
 								<onright>5001</onright>
-    	                        <texturefocus border="5" colordiffuse="$VAR[MainColorOne]">MenuItemFO.png</texturefocus>
-    	                        <texturenofocus border="5">MenuItemNF.png</texturenofocus>
-    	                        <label>-</label>
-    	                    </control>
-    	                    <control type="textbox" id="800">
-    	                        <posx>5</posx>
-    	                        <posy>10</posy>
-    	                        <width>295</width>
-    	                        <height>200</height>
-    	                        <align>left</align>
-    	                        <label fallback="No info available">$INFO[Window.Property(Biography)]</label>
-    	                        <font>font12</font>
-    	                        <autoscroll delay="10000" time="2000" repeat="10000">true</autoscroll>
-    	                    </control>
+								<texturefocus border="5" colordiffuse="$VAR[MainColorOne]">MenuItemFO.png</texturefocus>
+								<texturenofocus border="5">MenuItemNF.png</texturenofocus>
+								<label>-</label>
+							</control>
+							<control type="textbox" id="800">
+								<posx>5</posx>
+								<posy>10</posy>
+								<width>295</width>
+								<height>200</height>
+								<align>left</align>
+								<label fallback="No info available">$INFO[Window.Property(Biography)]</label>
+								<font>font12</font>
+								<autoscroll delay="10000" time="2000" repeat="10000">true</autoscroll>
+							</control>
 						</control>
 					</control>
 				</control>
 			</control>
-        </control>
+		</control>
 		<control type="group">
 			<depth>DepthFooter</depth>
 			<include>CommonNowPlaying</include>
@@ -954,5 +954,5 @@
 			<param name="Icon" value="icon_video" />
 			<param name="Label" value="ExtendedInfo Script" />
 		</include>
-    </controls>
+	</controls>
 </window>

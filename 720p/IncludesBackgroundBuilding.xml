@@ -729,7 +729,7 @@
 	<include name="Time40"><timeperimage>40000</timeperimage></include>
 	<include name="Time50"><timeperimage>50000</timeperimage></include>
 	<include name="Time60"><timeperimage>60000</timeperimage></include>
-    <include name="BackgroundTimePerImage">
+	<include name="BackgroundTimePerImage">
 		<include condition="IsEmpty(Skin.String(MultiImageTimer))">Time8</include>
 		<include condition="StringCompare(Skin.String(MultiImageTimer),1)">Time1</include>
 		<include condition="StringCompare(Skin.String(MultiImageTimer),2)">Time2</include>
@@ -747,6 +747,5 @@
 		<include condition="StringCompare(Skin.String(MultiImageTimer),40)">Time40</include>
 		<include condition="StringCompare(Skin.String(MultiImageTimer),50)">Time50</include>
 		<include condition="StringCompare(Skin.String(MultiImageTimer),60)">Time60</include>
-    </include>
-
+	</include>
 </includes>

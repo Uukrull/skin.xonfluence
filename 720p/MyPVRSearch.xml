@@ -28,7 +28,7 @@
 					<height>600</height>
 					<texture border="15">ContentPanel.png</texture>
 				</control>
-			    <control type="image">
+				<control type="image">
 					<left>55</left>
 					<top>652</top>
 					<width>1170</width>

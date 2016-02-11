@@ -2,8 +2,8 @@
 <window>
 	<menucontrol>9000</menucontrol>
 	<onunload>ClearProperty(SideBladeOpen)</onunload>
-    <defaultcontrol always="true">5001</defaultcontrol>
-    <controls>
+	<defaultcontrol always="true">5001</defaultcontrol>
+	<controls>
 		<!-- live image background -->
 		<control type="image">
 			<depth>DepthBackground</depth>
@@ -71,7 +71,7 @@
 		<!-- Main Layout -->
 		<!-- default: info 2 like view (no full background) -->
 		<!-- alternative: fanart like view -->
-        <control type="group">
+		<control type="group">
 			<control type="group">
 				<include>VisibleFadeEffect</include>
 				<control type="list" id="5001">
@@ -304,23 +304,23 @@
 								<scroll>false</scroll>
 							</control>
 							<control type="image">
-    	                        <width>85</width>
-    	                        <height>20</height>
-    	                        <top>120</top>
-    	                        <left>53</left>
-    	                        <texture>black-back.png</texture>
-    	                    </control>
-    	                    <control type="label">
-    	                        <width>85</width>
-    	                        <height>20</height>
-    	                        <top>120</top>
-    	                        <align>center</align>
-    	                        <aligny>center</aligny>
-    	                        <left>53</left>
-    	                        <font>font10</font>
-    	                        <textcolor>white</textcolor>
-    	                        <label>[B]$INFO[ListItem.Property(department)][/B]</label>
-    	                    </control>
+								<width>85</width>
+								<height>20</height>
+								<top>120</top>
+								<left>53</left>
+								<texture>black-back.png</texture>
+							</control>
+							<control type="label">
+								<width>85</width>
+								<height>20</height>
+								<top>120</top>
+								<align>center</align>
+								<aligny>center</aligny>
+								<left>53</left>
+								<font>font10</font>
+								<textcolor>white</textcolor>
+								<label>[B]$INFO[ListItem.Property(department)][/B]</label>
+							</control>
 						</itemlayout>
 						<focusedlayout height="186" width="193">
 							<control type="image">
@@ -347,23 +347,23 @@
 								<scroll>true</scroll>
 							</control>
 							<control type="image">
-    	                        <width>85</width>
-    	                        <height>20</height>
-    	                        <top>120</top>
-    	                        <left>53</left>
-    	                        <texture>black-back.png</texture>
-    	                    </control>
-    	                    <control type="label">
-    	                        <width>85</width>
-    	                        <height>20</height>
-    	                        <top>120</top>
-    	                        <align>center</align>
-    	                        <aligny>center</aligny>
-    	                        <left>53</left>
-    	                        <font>font10</font>
-    	                        <textcolor>white</textcolor>
-    	                        <label>[B]$INFO[ListItem.Property(department)][/B]</label>
-    	                    </control>
+								<width>85</width>
+								<height>20</height>
+								<top>120</top>
+								<left>53</left>
+								<texture>black-back.png</texture>
+							</control>
+							<control type="label">
+								<width>85</width>
+								<height>20</height>
+								<top>120</top>
+								<align>center</align>
+								<aligny>center</aligny>
+								<left>53</left>
+								<font>font10</font>
+								<textcolor>white</textcolor>
+								<label>[B]$INFO[ListItem.Property(department)][/B]</label>
+							</control>
 						</focusedlayout>
 					</control>
 					<control type="panel" id="150">
@@ -399,33 +399,33 @@
 								<scroll>false</scroll>
 							</control>
 							<control type="image">
-    	                        <width>25</width>
-    	                        <height>25</height>
-    	                        <top>0</top>
-    	                        <left>118</left>
-    	                        <texture>special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/local.png</texture>
-    	                        <visible>!IsEmpty(ListItem.Property(DBID))</visible>
-    	                    </control>
+								<width>25</width>
+								<height>25</height>
+								<top>0</top>
+								<left>118</left>
+								<texture>special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/local.png</texture>
+								<visible>!IsEmpty(ListItem.Property(DBID))</visible>
+							</control>
 							<control type="image">
-    	                        <width>35</width>
-    	                        <height>20</height>
-    	                        <top>5</top>
-    	                        <left>53</left>
-    	                        <texture>black-back.png</texture>
-    	                        <visible>!IsEmpty(ListItem.Year)</visible>
-    	                    </control>
-    	                    <control type="label">
-    	                        <width>35</width>
-    	                        <height>20</height>
-    	                        <top>5</top>
-    	                        <align>center</align>
-    	                        <aligny>center</aligny>
-    	                        <left>53</left>
-    	                        <font>font10</font>
-    	                        <textcolor>white</textcolor>
-    	                        <label>$INFO[ListItem.Year]</label>
-    	                        <visible>!IsEmpty(ListItem.Year)</visible>
-    	                    </control>
+								<width>35</width>
+								<height>20</height>
+								<top>5</top>
+								<left>53</left>
+								<texture>black-back.png</texture>
+								<visible>!IsEmpty(ListItem.Year)</visible>
+							</control>
+							<control type="label">
+								<width>35</width>
+								<height>20</height>
+								<top>5</top>
+								<align>center</align>
+								<aligny>center</aligny>
+								<left>53</left>
+								<font>font10</font>
+								<textcolor>white</textcolor>
+								<label>$INFO[ListItem.Year]</label>
+								<visible>!IsEmpty(ListItem.Year)</visible>
+							</control>
 						</itemlayout>
 						<focusedlayout height="186" width="193">
 							<control type="image">
@@ -452,33 +452,33 @@
 								<scroll>true</scroll>
 							</control>
 							<control type="image">
-    	                        <width>25</width>
-    	                        <height>25</height>
-    	                        <top>0</top>
-    	                        <left>118</left>
-    	                        <texture>special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/local.png</texture>
-    	                        <visible>!IsEmpty(ListItem.Property(DBID))</visible>
-    	                    </control>
+								<width>25</width>
+								<height>25</height>
+								<top>0</top>
+								<left>118</left>
+								<texture>special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/local.png</texture>
+								<visible>!IsEmpty(ListItem.Property(DBID))</visible>
+							</control>
 							<control type="image">
-    	                        <width>35</width>
-    	                        <height>20</height>
-    	                        <top>5</top>
-    	                        <left>53</left>
-    	                        <texture>black-back.png</texture>
-    	                        <visible>!IsEmpty(ListItem.Year)</visible>
-    	                    </control>
-    	                    <control type="label">
-    	                        <width>35</width>
-    	                        <height>20</height>
-    	                        <top>5</top>
-    	                        <align>center</align>
-    	                        <aligny>center</aligny>
-    	                        <left>53</left>
-    	                        <font>font10</font>
-    	                        <textcolor>white</textcolor>
-    	                        <label>$INFO[ListItem.Year]</label>
-    	                        <visible>!IsEmpty(ListItem.Year)</visible>
-    	                    </control>
+								<width>35</width>
+								<height>20</height>
+								<top>5</top>
+								<left>53</left>
+								<texture>black-back.png</texture>
+								<visible>!IsEmpty(ListItem.Year)</visible>
+							</control>
+							<control type="label">
+								<width>35</width>
+								<height>20</height>
+								<top>5</top>
+								<align>center</align>
+								<aligny>center</aligny>
+								<left>53</left>
+								<font>font10</font>
+								<textcolor>white</textcolor>
+								<label>$INFO[ListItem.Year]</label>
+								<visible>!IsEmpty(ListItem.Year)</visible>
+							</control>
 						</focusedlayout>
 					</control>
 					<control type="panel" id="250">
@@ -514,33 +514,33 @@
 								<scroll>false</scroll>
 							</control>
 							<control type="image">
-    	                        <width>25</width>
-    	                        <height>25</height>
-    	                        <top>0</top>
-    	                        <left>118</left>
-    	                        <texture>special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/local.png</texture>
-    	                        <visible>!IsEmpty(ListItem.Property(DBID))</visible>
-    	                    </control>
+								<width>25</width>
+								<height>25</height>
+								<top>0</top>
+								<left>118</left>
+								<texture>special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/local.png</texture>
+								<visible>!IsEmpty(ListItem.Property(DBID))</visible>
+							</control>
 							<control type="image">
-    	                        <width>35</width>
-    	                        <height>20</height>
-    	                        <top>5</top>
-    	                        <left>53</left>
-    	                        <texture>black-back.png</texture>
-    	                        <visible>!IsEmpty(ListItem.Year)</visible>
-    	                    </control>
-    	                    <control type="label">
-    	                        <width>35</width>
-    	                        <height>20</height>
-    	                        <top>5</top>
-    	                        <align>center</align>
-    	                        <aligny>center</aligny>
-    	                        <left>53</left>
-    	                        <font>font10</font>
-    	                        <textcolor>white</textcolor>
-    	                        <label>$INFO[ListItem.Year]</label>
-    	                        <visible>!IsEmpty(ListItem.Year)</visible>
-    	                    </control>
+								<width>35</width>
+								<height>20</height>
+								<top>5</top>
+								<left>53</left>
+								<texture>black-back.png</texture>
+								<visible>!IsEmpty(ListItem.Year)</visible>
+							</control>
+							<control type="label">
+								<width>35</width>
+								<height>20</height>
+								<top>5</top>
+								<align>center</align>
+								<aligny>center</aligny>
+								<left>53</left>
+								<font>font10</font>
+								<textcolor>white</textcolor>
+								<label>$INFO[ListItem.Year]</label>
+								<visible>!IsEmpty(ListItem.Year)</visible>
+							</control>
 						</itemlayout>
 						<focusedlayout height="186" width="193">
 							<control type="image">
@@ -567,33 +567,33 @@
 								<scroll>true</scroll>
 							</control>
 							<control type="image">
-    	                        <width>25</width>
-    	                        <height>25</height>
-    	                        <top>0</top>
-    	                        <left>118</left>
-    	                        <texture>special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/local.png</texture>
-    	                        <visible>!IsEmpty(ListItem.Property(DBID))</visible>
-    	                    </control>
+								<width>25</width>
+								<height>25</height>
+								<top>0</top>
+								<left>118</left>
+								<texture>special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/local.png</texture>
+								<visible>!IsEmpty(ListItem.Property(DBID))</visible>
+							</control>
 							<control type="image">
-    	                        <width>35</width>
-    	                        <height>20</height>
-    	                        <top>5</top>
-    	                        <left>53</left>
-    	                        <texture>black-back.png</texture>
-    	                        <visible>!IsEmpty(ListItem.Year)</visible>
-    	                    </control>
-    	                    <control type="label">
-    	                        <width>35</width>
-    	                        <height>20</height>
-    	                        <top>5</top>
-    	                        <align>center</align>
-    	                        <aligny>center</aligny>
-    	                        <left>53</left>
-    	                        <font>font10</font>
-    	                        <textcolor>white</textcolor>
-    	                        <label>$INFO[ListItem.Year]</label>
-    	                        <visible>!IsEmpty(ListItem.Year)</visible>
-    	                    </control>
+								<width>35</width>
+								<height>20</height>
+								<top>5</top>
+								<left>53</left>
+								<texture>black-back.png</texture>
+								<visible>!IsEmpty(ListItem.Year)</visible>
+							</control>
+							<control type="label">
+								<width>35</width>
+								<height>20</height>
+								<top>5</top>
+								<align>center</align>
+								<aligny>center</aligny>
+								<left>53</left>
+								<font>font10</font>
+								<textcolor>white</textcolor>
+								<label>$INFO[ListItem.Year]</label>
+								<visible>!IsEmpty(ListItem.Year)</visible>
+							</control>
 						</focusedlayout>
 					</control>
 					<control type="panel" id="1150">
@@ -1279,50 +1279,50 @@
 					<left>910</left>
 					<top>90</top>
 					<control type="image">
-                		<texture>special://home/addons/script.extendedinfo/resources/skins/Default/media/moviedb.png</texture>
-                		<left>20</left>
-                		<top>20</top>
-                		<width>260</width>
-                		<height>200</height>
-                		<aspectratio align="left">keep</aspectratio>
-                		<animation type="WindowOpen" reversible="false">
-                    		<effect type="slide" start="0,-1000" end="0,0" delay="0" tween="sine" time="1000" />
-                    		<effect type="fade" start="0" end="100" delay="0" tween="sine" time="2000" />
-                    		<effect type="rotatex" start="0" end="75" delay="3000" center="300,0" tween="sine" time="750" />
-                    		<effect type="fade" start="100" end="0" delay="3750" time="0" />
-                		</animation>
-            		</control>
-		            <control type="image">
+						<texture>special://home/addons/script.extendedinfo/resources/skins/Default/media/moviedb.png</texture>
+						<left>20</left>
+						<top>20</top>
+						<width>260</width>
+						<height>200</height>
+						<aspectratio align="left">keep</aspectratio>
+						<animation type="WindowOpen" reversible="false">
+							<effect type="slide" start="0,-1000" end="0,0" delay="0" tween="sine" time="1000" />
+							<effect type="fade" start="0" end="100" delay="0" tween="sine" time="2000" />
+							<effect type="rotatex" start="0" end="75" delay="3000" center="300,0" tween="sine" time="750" />
+							<effect type="fade" start="100" end="0" delay="3750" time="0" />
+						</animation>
+					</control>
+					<control type="image">
 						<texture>$INFO[Window.Property(Poster)]</texture>
-        		        <left>0</left>
-        		        <top>20</top>
-        		        <width>300</width>
-        		        <height>200</height>
-        		        <fadetime>600</fadetime>
+						<left>0</left>
+						<top>20</top>
+						<width>300</width>
+						<height>200</height>
+						<fadetime>600</fadetime>
 						<bordertexture border="8">ThumbShadow.png</bordertexture>
 						<bordersize>9</bordersize>
-        		        <aspectratio>scale</aspectratio>
-        		        <animation type="WindowOpen" reversible="false">
-        		            <effect type="rotatex" start="75" end="0" delay="3750" center="300,0" tween="sine" time="750" />
-        		            <effect type="fade" start="0" end="100" delay="3750" time="0" />
-        		        </animation>
-        		    </control>
+						<aspectratio>scale</aspectratio>
+						<animation type="WindowOpen" reversible="false">
+							<effect type="rotatex" start="75" end="0" delay="3750" center="300,0" tween="sine" time="750" />
+							<effect type="fade" start="0" end="100" delay="3750" time="0" />
+						</animation>
+					</control>
 					<control type="image">
 						<visible>Stringcompare(Window.Property(type),episode)</visible>
-                		<texture>$INFO[Window.Property(still_original)]</texture>
-        		        <left>0</left>
-        		        <top>20</top>
-        		        <width>300</width>
-        		        <height>200</height>
-        		        <fadetime>600</fadetime>
+						<texture>$INFO[Window.Property(still_original)]</texture>
+						<left>0</left>
+						<top>20</top>
+						<width>300</width>
+						<height>200</height>
+						<fadetime>600</fadetime>
 						<bordertexture border="8">ThumbShadow.png</bordertexture>
 						<bordersize>9</bordersize>
-        		        <aspectratio>scale</aspectratio>
-        		        <animation type="WindowOpen" reversible="false">
-        		            <effect type="rotatex" start="75" end="0" delay="3750" center="300,0" tween="sine" time="750" />
-        		            <effect type="fade" start="0" end="100" delay="3750" time="0" />
-        		        </animation>
-        		    </control>
+						<aspectratio>scale</aspectratio>
+						<animation type="WindowOpen" reversible="false">
+							<effect type="rotatex" start="75" end="0" delay="3750" center="300,0" tween="sine" time="750" />
+							<effect type="fade" start="0" end="100" delay="3750" time="0" />
+						</animation>
+					</control>
 					<control type="label">
 						<description>Show Title txt</description>
 						<left>10</left>
@@ -1343,208 +1343,208 @@
 						<height>400</height>
 						<width>310</width>
 						<itemgap>20</itemgap>
-                  	  	<scrolltime tween="sine">400</scrolltime>
-                    	<orientation>vertical</orientation>
-                    	<usecontrolcoords>true</usecontrolcoords>
+						<scrolltime tween="sine">400</scrolltime>
+						<orientation>vertical</orientation>
+						<usecontrolcoords>true</usecontrolcoords>
 						<control type="grouplist">
-                            <left>0</left>
-                            <top>0</top>
-                            <width>310</width>
+							<left>0</left>
+							<top>0</top>
+							<width>310</width>
 							<height>40</height>
-                            <itemgap>0</itemgap>
-                            <orientation>horizontal</orientation>
-                            <usecontrolcoords>true</usecontrolcoords>
+							<itemgap>0</itemgap>
+							<orientation>horizontal</orientation>
+							<usecontrolcoords>true</usecontrolcoords>
 							<control type="image">
-                                <posx>0</posx>
-                                <posy>5</posy>
-                                <width>50</width>
-                                <height>35</height>
-                                <visible>!StringCompare(Window.Property(type),Season) + !StringCompare(Window.Property(type),episode)</visible>
-                                <aspectratio align="center">scale</aspectratio>
-                                <texture colordiffuse="FFFAFAFA" fallback="special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/rating/MPAA_NR_Certificate_US.png">$INFO[Window.Property(mpaa),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/rating/,.png]</texture>
+								<posx>0</posx>
+								<posy>5</posy>
+								<width>50</width>
+								<height>35</height>
+								<visible>!StringCompare(Window.Property(type),Season) + !StringCompare(Window.Property(type),episode)</visible>
+								<aspectratio align="center">scale</aspectratio>
+								<texture colordiffuse="FFFAFAFA" fallback="special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/rating/MPAA_NR_Certificate_US.png">$INFO[Window.Property(mpaa),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/rating/,.png]</texture>
 							</control>
-                            <control type="group">
-                                <posx>0</posx>
-                                <width>75</width>
-                                <visible>!Stringcompare(Window.Property(Rating),0.0) + !IsEmpty(Window.Property(Rating))</visible>
-                                <control type="label">
-                                    <posx>0</posx>
-                                    <posy>4</posy>
-                                    <width>75</width>
-                                    <height>20</height>
-                                    <align>center</align>
-                                    <label fallback="?">[B]$INFO[Window.Property(Rating)][/B]</label>
-                                    <font>font12</font>
-                                </control>
-                                <control type="label">
-                                    <posx>0</posx>
-                                    <posy>22</posy>
-                                    <width>75</width>
-                                    <height>20</height>
-                                    <align>center</align>
-                                    <label fallback="563">$INFO[Window.Property(Votes),, $LOCALIZE[20350]]</label>
-                                    <font>font10</font>
-                                </control>
-                            </control>
 							<control type="group">
-                                <posx>0</posx>
-                                <width>75</width>
-                                <visible>!Stringcompare(Window.Property(duration),0) + !IsEmpty(Window.Property(duration))</visible>
-                                <control type="label">
-                                    <posx>0</posx>
-                                    <posy>4</posy>
-                                    <width>75</width>
-                                    <height>20</height>
-                                    <align>center</align>
-                                    <label>[B]$INFO[Window.Property(duration)][/B]</label>
-                                    <font>font12</font>
-                                </control>
-                                <control type="label">
-                                    <posx>0</posx>
-                                    <posy>22</posy>
-                                    <width>75</width>
-                                    <height>20</height>
-                                    <align>center</align>
-                                    <label>$LOCALIZE[12391]</label>
-                                    <font>font10</font>
-                                </control>
-                            </control>
+								<posx>0</posx>
+								<width>75</width>
+								<visible>!Stringcompare(Window.Property(Rating),0.0) + !IsEmpty(Window.Property(Rating))</visible>
+								<control type="label">
+									<posx>0</posx>
+									<posy>4</posy>
+									<width>75</width>
+									<height>20</height>
+									<align>center</align>
+									<label fallback="?">[B]$INFO[Window.Property(Rating)][/B]</label>
+									<font>font12</font>
+								</control>
+								<control type="label">
+									<posx>0</posx>
+									<posy>22</posy>
+									<width>75</width>
+									<height>20</height>
+									<align>center</align>
+									<label fallback="563">$INFO[Window.Property(Votes),, $LOCALIZE[20350]]</label>
+									<font>font10</font>
+								</control>
+							</control>
 							<control type="group">
-                                <width>100</width>
-                                <visible>!IsEmpty(Window.Property(release_date))</visible>
-                                <control type="label">
-                                    <posx>0</posx>
-                                    <posy>4</posy>
-                                    <width>100</width>
-                                    <height>20</height>
-                                    <align>center</align>
-                                    <label fallback="?">[B]$INFO[Window.Property(release_date)][/B]</label>
-                                    <font>font12</font>
-                                </control>
-                                <control type="label">
-                                    <posx>0</posx>
-                                    <posy>22</posy>
-                                    <width>100</width>
-                                    <height>20</height>
-                                    <align>center</align>
-                                    <label fallback="172">$INFO[Window.Property(Status)]</label>
-                                    <font>font10</font>
-                                </control>
-                            </control>
+								<posx>0</posx>
+								<width>75</width>
+								<visible>!Stringcompare(Window.Property(duration),0) + !IsEmpty(Window.Property(duration))</visible>
+								<control type="label">
+									<posx>0</posx>
+									<posy>4</posy>
+									<width>75</width>
+									<height>20</height>
+									<align>center</align>
+									<label>[B]$INFO[Window.Property(duration)][/B]</label>
+									<font>font12</font>
+								</control>
+								<control type="label">
+									<posx>0</posx>
+									<posy>22</posy>
+									<width>75</width>
+									<height>20</height>
+									<align>center</align>
+									<label>$LOCALIZE[12391]</label>
+									<font>font10</font>
+								</control>
+							</control>
+							<control type="group">
+								<width>100</width>
+								<visible>!IsEmpty(Window.Property(release_date))</visible>
+								<control type="label">
+									<posx>0</posx>
+									<posy>4</posy>
+									<width>100</width>
+									<height>20</height>
+									<align>center</align>
+									<label fallback="?">[B]$INFO[Window.Property(release_date)][/B]</label>
+									<font>font12</font>
+								</control>
+								<control type="label">
+									<posx>0</posx>
+									<posy>22</posy>
+									<width>100</width>
+									<height>20</height>
+									<align>center</align>
+									<label fallback="172">$INFO[Window.Property(Status)]</label>
+									<font>font10</font>
+								</control>
+							</control>
 						</control>
 						<control type="grouplist">
-                            <left>0</left>
-                            <top>0</top>
-                            <width>310</width>
+							<left>0</left>
+							<top>0</top>
+							<width>310</width>
 							<height>40</height>
-                            <itemgap>0</itemgap>
-                            <orientation>horizontal</orientation>
-                            <usecontrolcoords>true</usecontrolcoords>
-                          	<control type="group">
-                                <posx>0</posx>
-                                <width>100</width>
-                                <visible>!IsEmpty(Window.Property(Budget))</visible>
-                                <control type="label">
-                                    <posx>0</posx>
-                                    <posy>5</posy>
-                                    <width>100</width>
-                                    <height>20</height>
-                                    <align>center</align>
-                                    <label>[B]$INFO[Window.Property(Budget),$][/B]</label>
-                                    <font>font10</font>
-                                </control>
-                                <control type="label">
-                                    <posx>0</posx>
-                                    <posy>22</posy>
-                                    <width>100</width>
-                                    <height>20</height>
-                                    <align>center</align>
-                                    <label>$ADDON[script.extendedinfo 32109]</label>
-                                    <font>font10</font>
-                                </control>
-                            </control>
-                            <control type="group">
-                                <posx>0</posx>
-                                <width>100</width>
-                                <visible>!IsEmpty(Window.Property(Revenue))</visible>
-                                <control type="label">
-                                    <posx>0</posx>
-                                    <posy>4</posy>
-                                    <width>100</width>
-                                    <height>20</height>
-                                    <align>center</align>
-                                    <label fallback="?">[B]$INFO[Window.Property(Revenue),$][/B]</label>
-                                    <font>font10</font>
-                                </control>
-                                <control type="label">
-                                    <posx>0</posx>
-                                    <posy>22</posy>
-                                    <width>100</width>
-                                    <height>20</height>
-                                    <align>center</align>
-                                    <label>$ADDON[script.extendedinfo 32108]</label>
-                                    <font>font10</font>
-                                </control>
-                            </control>
-                            <control type="group">
-                                <posx>0</posx>
-                                <width>100</width>
-                                <visible>Stringcompare(Window.Property(type),Season)</visible>
-                                <control type="label">
-                                    <posx>0</posx>
-                                    <posy>4</posy>
-                                    <width>100</width>
-                                    <height>20</height>
-                                    <align>center</align>
-                                    <label fallback="?">[B]$INFO[Container(2000).NumItems][/B]</label>
-                                    <font>font10</font>
-                                </control>
-                                <control type="label">
-                                    <posx>0</posx>
-                                    <posy>22</posy>
-                                    <width>100</width>
-                                    <height>20</height>
-                                    <align>center</align>
-                                    <label>$LOCALIZE[20453]</label>
-                                    <font>font10</font>
-                                </control>
-                            </control>
+							<itemgap>0</itemgap>
+							<orientation>horizontal</orientation>
+							<usecontrolcoords>true</usecontrolcoords>
+							<control type="group">
+								<posx>0</posx>
+								<width>100</width>
+								<visible>!IsEmpty(Window.Property(Budget))</visible>
+								<control type="label">
+									<posx>0</posx>
+									<posy>5</posy>
+									<width>100</width>
+									<height>20</height>
+									<align>center</align>
+									<label>[B]$INFO[Window.Property(Budget),$][/B]</label>
+									<font>font10</font>
+								</control>
+								<control type="label">
+									<posx>0</posx>
+									<posy>22</posy>
+									<width>100</width>
+									<height>20</height>
+									<align>center</align>
+									<label>$ADDON[script.extendedinfo 32109]</label>
+									<font>font10</font>
+								</control>
+							</control>
+							<control type="group">
+								<posx>0</posx>
+								<width>100</width>
+								<visible>!IsEmpty(Window.Property(Revenue))</visible>
+								<control type="label">
+									<posx>0</posx>
+									<posy>4</posy>
+									<width>100</width>
+									<height>20</height>
+									<align>center</align>
+									<label fallback="?">[B]$INFO[Window.Property(Revenue),$][/B]</label>
+									<font>font10</font>
+								</control>
+								<control type="label">
+									<posx>0</posx>
+									<posy>22</posy>
+									<width>100</width>
+									<height>20</height>
+									<align>center</align>
+									<label>$ADDON[script.extendedinfo 32108]</label>
+									<font>font10</font>
+								</control>
+							</control>
+							<control type="group">
+								<posx>0</posx>
+								<width>100</width>
+								<visible>Stringcompare(Window.Property(type),Season)</visible>
+								<control type="label">
+									<posx>0</posx>
+									<posy>4</posy>
+									<width>100</width>
+									<height>20</height>
+									<align>center</align>
+									<label fallback="?">[B]$INFO[Container(2000).NumItems][/B]</label>
+									<font>font10</font>
+								</control>
+								<control type="label">
+									<posx>0</posx>
+									<posy>22</posy>
+									<width>100</width>
+									<height>20</height>
+									<align>center</align>
+									<label>$LOCALIZE[20453]</label>
+									<font>font10</font>
+								</control>
+							</control>
 						</control>
-    	                <control type="group" id="140">
+						<control type="group" id="140">
 							<visible>!IsEmpty(Window.Property(Plot))</visible>
-    	                    <height>210</height>
-    	                    <control type="button" id="132">
-    	                        <posx>0</posx>
-    	                        <posy>5</posy>
-    	                        <width>310</width>
-    	                        <height>210</height>
-    	                        <radioposx>30</radioposx>
-    	                        <radioposy>20</radioposy>
-    	                        <radiowidth>46</radiowidth>
-    	                        <radioheight>46</radioheight>
-    	                        <onup>SetFocus(20000)</onup>
-    	                        <ondown>150</ondown>
+							<height>210</height>
+							<control type="button" id="132">
+								<posx>0</posx>
+								<posy>5</posy>
+								<width>310</width>
+								<height>210</height>
+								<radioposx>30</radioposx>
+								<radioposy>20</radioposy>
+								<radiowidth>46</radiowidth>
+								<radioheight>46</radioheight>
+								<onup>SetFocus(20000)</onup>
+								<ondown>150</ondown>
 								<onleft>60</onleft>
 								<onright>5001</onright>
-    	                        <texturefocus border="5" colordiffuse="$VAR[MainColorOne]">MenuItemFO.png</texturefocus>
-    	                        <texturenofocus border="5">MenuItemNF.png</texturenofocus>
-    	                        <label>-</label>
-    	                    </control>
-    	                    <control type="textbox" id="800">
-    	                        <posx>5</posx>
-    	                        <posy>10</posy>
-    	                        <width>295</width>
-    	                        <height>200</height>
-    	                        <align>left</align>
-    	                        <label fallback="19055">[B]$INFO[Window.Property(TagLine),,[CR]][/B]$INFO[Window.Property(Plot)]</label>
-    	                        <font>font12</font>
-    	                        <autoscroll delay="10000" time="2000" repeat="10000">true</autoscroll>
-    	                    </control>
+								<texturefocus border="5" colordiffuse="$VAR[MainColorOne]">MenuItemFO.png</texturefocus>
+								<texturenofocus border="5">MenuItemNF.png</texturenofocus>
+								<label>-</label>
+							</control>
+							<control type="textbox" id="800">
+								<posx>5</posx>
+								<posy>10</posy>
+								<width>295</width>
+								<height>200</height>
+								<align>left</align>
+								<label fallback="19055">[B]$INFO[Window.Property(TagLine),,[CR]][/B]$INFO[Window.Property(Plot)]</label>
+								<font>font12</font>
+								<autoscroll delay="10000" time="2000" repeat="10000">true</autoscroll>
+							</control>
 						</control>
 					</control>
 				</control>
 			</control>
-        </control>
+		</control>
 		<control type="group">
 			<depth>DepthFooter</depth>
 			<include>CommonNowPlaying</include>
@@ -1557,7 +1557,7 @@
 			<param name="Label" value="ExtendedInfo Script" />
 		</include>
 		<!-- SideBlade -->
-        <control type="group">
+		<control type="group">
 			<visible>!Skin.HasSetting(KioskMode)</visible>
 			<left>-250</left>
 			<include>SideBladeLeft</include>
@@ -1590,297 +1590,297 @@
 				</control>
 				<control type="button" id="120">
 					<include>ButtonCommonValues</include>
-                	<label>$LOCALIZE[21385]</label>
+					<label>$LOCALIZE[21385]</label>
 					<visible>!IsEmpty(Window.Property(DBID)) + Stringcompare(Window.Property(Type),tvshow)</visible>
-            	</control>
-                <control type="button" id="9">
+				</control>
+				<control type="button" id="9">
 					<include>ButtonCommonValues</include>
-                    <label>$LOCALIZE[13404] $INFO[Window.Property(PercentPlayed),(,%)]</label>
+					<label>$LOCALIZE[13404] $INFO[Window.Property(PercentPlayed),(,%)]</label>
 					<visible>!IsEmpty(Window.Property(DBID)) + IntegerGreaterThan(Window.Property(PercentPlayed),0)</visible> 
-					<onclick>Action(Close)</onclick>       
-                </control>
-                <control type="button" id="6001">
-                    <include>ButtonCommonValues</include>
-                    <label>$ADDON[script.extendedinfo 32129]</label>
+					<onclick>Action(Close)</onclick>
+				</control>
+				<control type="button" id="6001">
+					<include>ButtonCommonValues</include>
+					<label>$ADDON[script.extendedinfo 32129]</label>
 					<visible>!StringCompare(Window.Property(type),season)</visible>
-                </control>
-                <control type="label" id="5333">
+				</control>
+				<control type="label" id="5333">
 					<font>font12</font>
 					<textcolor>$VAR[MainColorOne]</textcolor>
 					<align>left</align>
-                    <label>$INFO[Window.Property(rated)]</label>
+					<label>$INFO[Window.Property(rated)]</label>
 					<visible>!StringCompare(Window.Property(type),season)</visible>
-                </control>
+				</control>
 				<control type="button" id="6003">
 					<include>ButtonCommonValues</include>
-                    <label>$INFO[Window.Property(FavButton_Label)]</label>
+					<label>$INFO[Window.Property(FavButton_Label)]</label>
 					<visible>!IsEmpty(Window.Property(tmdb_logged_in))</visible>
-                    <visible>!StringCompare(Window.Property(type),season) + !StringCompare(Window.Property(type),episode)</visible>
-                </control>
-                <control type="button" id="6005">
+					<visible>!StringCompare(Window.Property(type),season) + !StringCompare(Window.Property(type),episode)</visible>
+				</control>
+				<control type="button" id="6005">
 					<include>ButtonCommonValues</include>
-                    <label>$ADDON[script.extendedinfo 32107]</label>
+					<label>$ADDON[script.extendedinfo 32107]</label>
 					<visible>!IsEmpty(Window.Property(tmdb_logged_in))</visible>
-                    <visible>!StringCompare(Window.Property(type),season) + !StringCompare(Window.Property(type),episode)</visible>
-                </control>
-                <control type="button" id="6002">
+					<visible>!StringCompare(Window.Property(type),season) + !StringCompare(Window.Property(type),episode)</visible>
+				</control>
+				<control type="button" id="6002">
 					<include>ButtonCommonValues</include>
-                    <label>$ADDON[script.extendedinfo 32130]</label>
+					<label>$ADDON[script.extendedinfo 32130]</label>
 					<visible>!IsEmpty(Window.Property(tmdb_logged_in))</visible>
-                    <visible>!StringCompare(Window.Property(type),season) + !StringCompare(Window.Property(type),episode)</visible>
-                </control>
-                <control type="button" id="6006">
+					<visible>!StringCompare(Window.Property(type),season) + !StringCompare(Window.Property(type),episode)</visible>
+				</control>
+				<control type="button" id="6006">
 					<include>ButtonCommonValues</include>
-                    <label>$ADDON[script.extendedinfo 32131]</label>
+					<label>$ADDON[script.extendedinfo 32131]</label>
 					<visible>IsEmpty(Window.Property(tmdb_logged_in))</visible>
-                    <visible>!StringCompare(Window.Property(type),season) + !StringCompare(Window.Property(type),TVShow)</visible>
-                </control>
-                <control type="button" id="100">
+					<visible>!StringCompare(Window.Property(type),season) + !StringCompare(Window.Property(type),TVShow)</visible>
+				</control>
+				<control type="button" id="100">
 					<include>ButtonCommonValues</include>
-                    <label>$ADDON[script.extendedinfo 32132]</label>
-                    <onclick>XBMC.RunScript(script.videoextras,display,"$INFO[Window.Property(FilenameAndPath)]")</onclick>
-                    <visible>System.HasAddon(script.videoextras) + IsEmpty(Window(movieinformation).Property(HideVideoExtrasButton))</visible>
-                    <visible>!IsEmpty(Window.Property(FilenameAndPath))</visible>
-                </control>
-                <control type="button" id="445">
+					<label>$ADDON[script.extendedinfo 32132]</label>
+					<onclick>XBMC.RunScript(script.videoextras,display,"$INFO[Window.Property(FilenameAndPath)]")</onclick>
+					<visible>System.HasAddon(script.videoextras) + IsEmpty(Window(movieinformation).Property(HideVideoExtrasButton))</visible>
+					<visible>!IsEmpty(Window.Property(FilenameAndPath))</visible>
+				</control>
+				<control type="button" id="445">
 					<include>ButtonCommonValues</include>
-                    <label>$ADDON[script.extendedinfo 32133]</label>
-                    <visible>!Skin.HasSetting(kioskmode)</visible>
-                </control>
-                <control type="group">
-                    <visible>!IsEmpty(Window.Property(DBID))</visible>
-                    <visible>StringCompare(Window.Property(type),movie) | StringCompare(Window.Property(type),episode)</visible>
-                    <control type="grouplist">
-                        <left>0</left>
-                        <top>0</top>
-                        <width>250</width>
-                        <height>45</height>
-                        <orientation>horizontal</orientation>
-                        <itemgap>5</itemgap>
-                        <usecontrolcoords>true</usecontrolcoords>
-                        <control type="image" id="900012">
-                            <posy>5</posy>
-                            <width>50</width>
-                            <height>30</height>
-                            <aspectratio>keep</aspectratio>
-                            <texture colordiffuse="FFFAFAFA">$INFO[Window.Property(VideoCodec),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/source/,.png]</texture>
-                            <visible>!IsEmpty(Window.Property(VideoCodec))</visible>
-                        </control>
-                        <control type="image" id="900013">
-                            <posy>5</posy>
-                            <width>63</width>
-                            <height>30</height>
-                            <aspectratio>keep</aspectratio>
-                            <texture colordiffuse="FFFAFAFA">$INFO[Window.Property(AudioCodec),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/audio/,.png]</texture>
-                            <visible>!IsEmpty(Window.Property(AudioCodec))</visible>
-                        </control>
-                        <control type="image" id="900014">
-                            <posy>5</posy>
-                            <width>40</width>
-                            <height>30</height>
-                            <aspectratio>keep</aspectratio>
-                            <texture colordiffuse="FFFAFAFA">$INFO[Window.Property(VideoResolution),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/resolution/,.png]</texture>
-                            <visible>!IsEmpty(Window.Property(VideoResolution))</visible>
-                        </control>
-                        <control type="image" id="900015">
-                            <posy>5</posy>
-                            <width>40</width>
-                            <height>30</height>
-                            <aspectratio>keep</aspectratio>
-                            <texture colordiffuse="FFFAFAFA">$INFO[Window.Property(VideoAspect),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/aspectratio/,.png]</texture>
-                            <visible>!IsEmpty(Window.Property(VideoAspect))</visible>
-                        </control>
+					<label>$ADDON[script.extendedinfo 32133]</label>
+					<visible>!Skin.HasSetting(kioskmode)</visible>
+				</control>
+				<control type="group">
+					<visible>!IsEmpty(Window.Property(DBID))</visible>
+					<visible>StringCompare(Window.Property(type),movie) | StringCompare(Window.Property(type),episode)</visible>
+					<control type="grouplist">
+						<left>0</left>
+						<top>0</top>
+						<width>250</width>
+						<height>45</height>
+						<orientation>horizontal</orientation>
+						<itemgap>5</itemgap>
+						<usecontrolcoords>true</usecontrolcoords>
+						<control type="image" id="900012">
+							<posy>5</posy>
+							<width>50</width>
+							<height>30</height>
+							<aspectratio>keep</aspectratio>
+							<texture colordiffuse="FFFAFAFA">$INFO[Window.Property(VideoCodec),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/source/,.png]</texture>
+							<visible>!IsEmpty(Window.Property(VideoCodec))</visible>
+						</control>
+						<control type="image" id="900013">
+							<posy>5</posy>
+							<width>63</width>
+							<height>30</height>
+							<aspectratio>keep</aspectratio>
+							<texture colordiffuse="FFFAFAFA">$INFO[Window.Property(AudioCodec),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/audio/,.png]</texture>
+							<visible>!IsEmpty(Window.Property(AudioCodec))</visible>
+						</control>
+						<control type="image" id="900014">
+							<posy>5</posy>
+							<width>40</width>
+							<height>30</height>
+							<aspectratio>keep</aspectratio>
+							<texture colordiffuse="FFFAFAFA">$INFO[Window.Property(VideoResolution),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/resolution/,.png]</texture>
+							<visible>!IsEmpty(Window.Property(VideoResolution))</visible>
+						</control>
+						<control type="image" id="900015">
+							<posy>5</posy>
+							<width>40</width>
+							<height>30</height>
+							<aspectratio>keep</aspectratio>
+							<texture colordiffuse="FFFAFAFA">$INFO[Window.Property(VideoAspect),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/aspectratio/,.png]</texture>
+							<visible>!IsEmpty(Window.Property(VideoAspect))</visible>
+						</control>
 					</control>	
-                    <!-- Language flags -->
-                    <control type="grouplist">
-                        <visible>!IsEmpty(Window.Property(AudioLanguage.1)) | !IsEmpty(Window.Property(AudioLanguage.2))</visible>
-                        <orientation>vertical</orientation>
-                        <usecontrolcoords>true</usecontrolcoords>
-                        <control type="grouplist" id="11000">
-                            <top>50</top>
-                            <width>250</width>
-                            <height>12</height>
-                            <align>left</align>
-                            <itemgap>2</itemgap>
-                            <orientation>horizontal</orientation>
-                            <control type="label">
-                                <width>80</width>
-                                <height>12</height>
-                                <align>right</align>
-                                <aligny>center</aligny>
-                                <textoffsetx>10</textoffsetx>
-                                <label>$LOCALIZE[445]:</label>
-                                <font>font10</font>
-                            </control>
-                            <control type="image">
-                                <width>12</width>
-                                <height>12</height>
-                                <aspectratio>keep</aspectratio>
-                                <texture>$INFO[Window.Property(AudioLanguage.1),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
-                                <visible>!IsEmpty(Window.Property(AudioLanguage.1))</visible>
-                            </control>
-                            <control type="image">
-                                <width>12</width>
-                                <height>12</height>
-                                <aspectratio>keep</aspectratio>
-                                <texture>$INFO[Window.Property(AudioLanguage.2),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
-                            </control>
-                            <control type="image">
-                                <width>12</width>
-                                <height>12</height>
-                                <aspectratio>keep</aspectratio>
-                                <texture>$INFO[Window.Property(AudioLanguage.3),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
-                            </control>
-                            <control type="image">
-                                <width>12</width>
-                                <height>12</height>
-                                <aspectratio>keep</aspectratio>
-                                <texture>$INFO[Window.Property(AudioLanguage.4),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
-                            </control>
-                            <control type="image">
-                                <width>12</width>
-                                <height>12</height>
-                                <aspectratio>keep</aspectratio>
-                                <texture>$INFO[Window.Property(AudioLanguage.5),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
-                            </control>
-                            <control type="image">
-                                <width>12</width>
-                                <height>12</height>
-                                <aspectratio>keep</aspectratio>
-                                <texture>$INFO[Window.Property(AudioLanguage.6),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
-                            </control>
-                            <control type="image">
-                                <width>12</width>
-                                <height>12</height>
-                                <aspectratio>keep</aspectratio>
-                                <texture>$INFO[Window.Property(AudioLanguage.7),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
-                            </control>
-                            <control type="image">
-                                <width>12</width>
-                                <height>12</height>
-                                <aspectratio>keep</aspectratio>
-                                <texture>$INFO[Window.Property(AudioLanguage.8),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
-                            </control>
-                            <control type="image">
-                                <width>12</width>
-                                <height>12</height>
-                                <aspectratio>keep</aspectratio>
-                                <texture>$INFO[Window.Property(AudioLanguage.9),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
-                            </control>
-                            <control type="image">
-                                <width>12</width>
-                                <height>12</height>
-                                <aspectratio>keep</aspectratio>
-                                <texture>$INFO[Window.Property(AudioLanguage.10),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
-                            </control>
-                            <control type="image">
-                                <width>12</width>
-                                <height>12</height>
-                                <aspectratio>keep</aspectratio>
-                                <texture>$INFO[Window.Property(AudioLanguage.11),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
-                            </control>
-                            <control type="image">
-                                <width>12</width>
-                                <height>12</height>
-                                <aspectratio>keep</aspectratio>
-                                <texture>$INFO[Window.Property(AudioLanguage.12),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
-                            </control>
-                        </control>
-                        <!-- Subtitle flags -->
-                        <control type="grouplist" id="12000">
-                            <visible>!IsEmpty(Window.Property(SubtitleLanguage.1)) | !IsEmpty(Window.Property(SubtitleLanguage.2))</visible>
-                            <animation effect="fade" start="100" end="80" time="40" condition="true">Conditional</animation>
-                            <width>250</width>
-                            <height>12</height>
-                            <align>left</align>
-                            <itemgap>2</itemgap>
-                            <orientation>horizontal</orientation>
-                            <control type="label">
-                                <width>80</width>
-                                <height>12</height>
-                                <align>right</align>
-                                <textoffsetx>10</textoffsetx>
-                                <aligny>center</aligny>
-                                <label>$LOCALIZE[287]:</label>
-                                <font>font10</font>
-                             </control>
-                             <control type="image">
-                                <width>12</width>
-                                <height>12</height>
-                                <aspectratio>keep</aspectratio>
-                                <texture>$INFO[Window.Property(SubtitleLanguage.1),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
-                            </control>
-                            <control type="image">
-                                <width>12</width>
-                                <height>12</height>
-                                <aspectratio>keep</aspectratio>
-                                <texture>$INFO[Window.Property(SubtitleLanguage.2),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
-                            </control>
-                            <control type="image">
-                                <width>12</width>
-                                <height>12</height>
-                                <aspectratio>keep</aspectratio>
-                                <texture>$INFO[Window.Property(SubtitleLanguage.3),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
-                            </control>
-                            <control type="image">
-                                <width>12</width>
-                                <height>12</height>
-                                <aspectratio>keep</aspectratio>
-                                <texture>$INFO[Window.Property(SubtitleLanguage.4),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
-                            </control>
-                            <control type="image">
-                                <width>12</width>
-                                <height>12</height>
-                                <aspectratio>keep</aspectratio>
-                                <texture>$INFO[Window.Property(SubtitleLanguage.5),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
-                            </control>
-                            <control type="image">
-                                <width>12</width>
-                                <height>12</height>
-                                <aspectratio>keep</aspectratio>
-                                <texture>$INFO[Window.Property(SubtitleLanguage.6),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
-                            </control>
-                            <control type="image">
-                                <width>12</width>
-                                <height>12</height>
-                                <texture>$INFO[Window.Property(SubtitleLanguage.7),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
-                                <aspectratio>keep</aspectratio>
-                            </control>
-                            <control type="image">
-                                <width>12</width>
-                                <height>12</height>
-                                <aspectratio>keep</aspectratio>
-                                <texture>$INFO[Window.Property(SubtitleLanguage.8),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
-                            </control>
-                            <control type="image">
-                                <width>12</width>
-                                <height>12</height>
-                                <aspectratio>keep</aspectratio>
-                                <texture>$INFO[Window.Property(SubtitleLanguage.9),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
-                            </control>
-                            <control type="image">
-                                <width>12</width>
-                                <height>12</height>
-                                <aspectratio>keep</aspectratio>
-                                <texture>$INFO[Window.Property(SubtitleLanguage.10),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
-                            </control>
-                            <control type="image">
-                                <width>12</width>
-                                <height>12</height>
-                                <aspectratio>keep</aspectratio>
-                                <texture>$INFO[Window.Property(SubtitleLanguage.11),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
-                            </control>
-                            <control type="image">
-                                <width>12</width>
-                                <height>12</height>
-                                <aspectratio>keep</aspectratio>
-                                <texture>$INFO[Window.Property(SubtitleLanguage.12),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
-                            </control>
-                        </control>
-                    </control>
-                </control>
+					<!-- Language flags -->
+					<control type="grouplist">
+						<visible>!IsEmpty(Window.Property(AudioLanguage.1)) | !IsEmpty(Window.Property(AudioLanguage.2))</visible>
+						<orientation>vertical</orientation>
+						<usecontrolcoords>true</usecontrolcoords>
+						<control type="grouplist" id="11000">
+							<top>50</top>
+							<width>250</width>
+							<height>12</height>
+							<align>left</align>
+							<itemgap>2</itemgap>
+							<orientation>horizontal</orientation>
+							<control type="label">
+								<width>80</width>
+								<height>12</height>
+								<align>right</align>
+								<aligny>center</aligny>
+								<textoffsetx>10</textoffsetx>
+								<label>$LOCALIZE[445]:</label>
+								<font>font10</font>
+							</control>
+							<control type="image">
+								<width>12</width>
+								<height>12</height>
+								<aspectratio>keep</aspectratio>
+								<texture>$INFO[Window.Property(AudioLanguage.1),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
+								<visible>!IsEmpty(Window.Property(AudioLanguage.1))</visible>
+							</control>
+							<control type="image">
+								<width>12</width>
+								<height>12</height>
+								<aspectratio>keep</aspectratio>
+								<texture>$INFO[Window.Property(AudioLanguage.2),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
+							</control>
+							<control type="image">
+								<width>12</width>
+								<height>12</height>
+								<aspectratio>keep</aspectratio>
+								<texture>$INFO[Window.Property(AudioLanguage.3),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
+							</control>
+							<control type="image">
+								<width>12</width>
+								<height>12</height>
+								<aspectratio>keep</aspectratio>
+								<texture>$INFO[Window.Property(AudioLanguage.4),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
+							</control>
+							<control type="image">
+								<width>12</width>
+								<height>12</height>
+								<aspectratio>keep</aspectratio>
+								<texture>$INFO[Window.Property(AudioLanguage.5),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
+							</control>
+							<control type="image">
+								<width>12</width>
+								<height>12</height>
+								<aspectratio>keep</aspectratio>
+								<texture>$INFO[Window.Property(AudioLanguage.6),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
+							</control>
+							<control type="image">
+								<width>12</width>
+								<height>12</height>
+								<aspectratio>keep</aspectratio>
+								<texture>$INFO[Window.Property(AudioLanguage.7),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
+							</control>
+							<control type="image">
+								<width>12</width>
+								<height>12</height>
+								<aspectratio>keep</aspectratio>
+								<texture>$INFO[Window.Property(AudioLanguage.8),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
+							</control>
+							<control type="image">
+								<width>12</width>
+								<height>12</height>
+								<aspectratio>keep</aspectratio>
+								<texture>$INFO[Window.Property(AudioLanguage.9),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
+							</control>
+							<control type="image">
+								<width>12</width>
+								<height>12</height>
+								<aspectratio>keep</aspectratio>
+								<texture>$INFO[Window.Property(AudioLanguage.10),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
+							</control>
+							<control type="image">
+								<width>12</width>
+								<height>12</height>
+								<aspectratio>keep</aspectratio>
+								<texture>$INFO[Window.Property(AudioLanguage.11),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
+							</control>
+							<control type="image">
+								<width>12</width>
+								<height>12</height>
+								<aspectratio>keep</aspectratio>
+								<texture>$INFO[Window.Property(AudioLanguage.12),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
+							</control>
+						</control>
+						<!-- Subtitle flags -->
+						<control type="grouplist" id="12000">
+							<visible>!IsEmpty(Window.Property(SubtitleLanguage.1)) | !IsEmpty(Window.Property(SubtitleLanguage.2))</visible>
+							<animation effect="fade" start="100" end="80" time="40" condition="true">Conditional</animation>
+							<width>250</width>
+							<height>12</height>
+							<align>left</align>
+							<itemgap>2</itemgap>
+							<orientation>horizontal</orientation>
+							<control type="label">
+								<width>80</width>
+								<height>12</height>
+								<align>right</align>
+								<textoffsetx>10</textoffsetx>
+								<aligny>center</aligny>
+								<label>$LOCALIZE[287]:</label>
+								<font>font10</font>
+							</control>
+							<control type="image">
+								<width>12</width>
+								<height>12</height>
+								<aspectratio>keep</aspectratio>
+								<texture>$INFO[Window.Property(SubtitleLanguage.1),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
+							</control>
+							<control type="image">
+								<width>12</width>
+								<height>12</height>
+								<aspectratio>keep</aspectratio>
+								<texture>$INFO[Window.Property(SubtitleLanguage.2),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
+							</control>
+							<control type="image">
+								<width>12</width>
+								<height>12</height>
+								<aspectratio>keep</aspectratio>
+								<texture>$INFO[Window.Property(SubtitleLanguage.3),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
+							</control>
+							<control type="image">
+								<width>12</width>
+								<height>12</height>
+								<aspectratio>keep</aspectratio>
+								<texture>$INFO[Window.Property(SubtitleLanguage.4),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
+							</control>
+							<control type="image">
+								<width>12</width>
+								<height>12</height>
+								<aspectratio>keep</aspectratio>
+								<texture>$INFO[Window.Property(SubtitleLanguage.5),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
+							</control>
+							<control type="image">
+								<width>12</width>
+								<height>12</height>
+								<aspectratio>keep</aspectratio>
+								<texture>$INFO[Window.Property(SubtitleLanguage.6),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
+							</control>
+							<control type="image">
+								<width>12</width>
+								<height>12</height>
+								<texture>$INFO[Window.Property(SubtitleLanguage.7),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
+								<aspectratio>keep</aspectratio>
+							</control>
+							<control type="image">
+								<width>12</width>
+								<height>12</height>
+								<aspectratio>keep</aspectratio>
+								<texture>$INFO[Window.Property(SubtitleLanguage.8),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
+							</control>
+							<control type="image">
+								<width>12</width>
+								<height>12</height>
+								<aspectratio>keep</aspectratio>
+								<texture>$INFO[Window.Property(SubtitleLanguage.9),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
+							</control>
+							<control type="image">
+								<width>12</width>
+								<height>12</height>
+								<aspectratio>keep</aspectratio>
+								<texture>$INFO[Window.Property(SubtitleLanguage.10),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
+							</control>
+							<control type="image">
+								<width>12</width>
+								<height>12</height>
+								<aspectratio>keep</aspectratio>
+								<texture>$INFO[Window.Property(SubtitleLanguage.11),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
+							</control>
+							<control type="image">
+								<width>12</width>
+								<height>12</height>
+								<aspectratio>keep</aspectratio>
+								<texture>$INFO[Window.Property(SubtitleLanguage.12),special://home/addons/script.extendedinfo/resources/skins/Default/media/flags/language/,.png]</texture>
+							</control>
+						</control>
+					</control>
+				</control>
 				<include>CommonNowPlaying_Controls</include>
-            </control>
-        </control>
-    </controls>
+			</control>
+		</control>
+	</controls>
 </window>

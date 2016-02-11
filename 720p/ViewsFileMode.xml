@@ -201,7 +201,7 @@
 						<texture>OverlayWatching.png</texture>
 						<visible>Window.IsVisible(Videos) + ListItem.IsResumable</visible>
 					</control>
- 					<control type="image">
+					<control type="image">
 						<left>665</left>
 						<top>14</top>
 						<width>20</width>

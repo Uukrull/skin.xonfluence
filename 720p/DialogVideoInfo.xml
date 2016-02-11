@@ -903,7 +903,7 @@
 					<onleft>9000</onleft>
 					<onright>61</onright>
 					<onup>61</onup>
-					<ondown>9000</ondown>   
+					<ondown>9000</ondown>
 					<oninfo condition="System.HasAddon(script.extendedinfo)">RunScript(script.extendedinfo,info=extendedactorinfo,name=$INFO[Container(50).ListItem.Label])</oninfo>
 					<viewtype label="">list</viewtype>
 					<pagecontrol>61</pagecontrol>
@@ -987,7 +987,7 @@
 						<include>ButtonInfoDialogsCommonValues</include>
 						<label>206</label>
 					</control>
-                    <control type="button" id="106">
+					<control type="button" id="106">
 						<description>ExtendedInfo</description>
 						<include>ButtonInfoDialogsCommonValues</include>
 						<label>31204</label>
@@ -1024,7 +1024,7 @@
 						<label>38023</label>
 						<visible>Control.IsEnabled(7)</visible>
 					</control>
-                    <!--<control type="button" id="204">
+					<!--<control type="button" id="204">
 						<description>YouTube</description>
 						<include>ButtonInfoDialogsCommonValues</include>
 						<label>31942</label>
