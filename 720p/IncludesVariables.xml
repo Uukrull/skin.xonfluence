@@ -2976,7 +2976,7 @@
 	</variable>
 	<variable name="UsrOSDBtnCmd">
 		<value condition="Skin.String(OSDBtnUsrCmd,AspectRatio)">AspectRatio</value>
-		<value condition="Skin.String(OSDBtnUsrCmd,UserSelect)">$INFO[Skin.String(UsrOSDBtn.Path)]</value>		
+		<value condition="Skin.String(OSDBtnUsrCmd,UserSelect)">$INFO[Skin.String(UsrOSDBtn.Path)]</value>
 	</variable>
 	<variable name="OSDInfoType">
 		<value condition="IsEmpty(Skin.String(MusicOSDInfo))">$LOCALIZE[31017]</value>

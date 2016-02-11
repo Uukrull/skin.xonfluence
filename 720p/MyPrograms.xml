@@ -110,7 +110,7 @@
 					<label>21452</label>
 					<onclick>ActivateWindow(addonbrowser,addons://more/executable/,return)</onclick>
 					<visible>Container.Content(addons)</visible>
-				</control>				
+				</control>
 				<include>CommonNowPlaying_Controls</include>
 			</control>
 		</control>

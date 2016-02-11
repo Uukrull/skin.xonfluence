@@ -713,7 +713,7 @@
 			</control>
 		</control>
 	</include>
-	<include name="Time1"><timeperimage>1000</timeperimage></include>	
+	<include name="Time1"><timeperimage>1000</timeperimage></include>
 	<include name="Time2"><timeperimage>2000</timeperimage></include>
 	<include name="Time3"><timeperimage>3000</timeperimage></include>
 	<include name="Time4"><timeperimage>4000</timeperimage></include>

@@ -152,7 +152,7 @@
 					<label>19138</label>
 					<onclick condition="IsEmpty(Window.Property(IsRadio))">ActivateWindow(TVTimerRules)</onclick>
 					<onclick condition="!IsEmpty(Window.Property(IsRadio))">ActivateWindow(RadioTimerRules)</onclick>
-				</control>				
+				</control>
 				<control type="button" id="104">
 					<description>Search</description>
 					<textwidth>235</textwidth>

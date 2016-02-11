@@ -62,7 +62,7 @@
 		<value condition="[Container.Content(Albums) | Container.Content(Songs)] + !IsEmpty(Container.Art(artist.thumb))">$INFO[Container.Art(artist.thumb)]</value>
 		<value condition="Container.Content(Artists)">DefaultAlbumCover.png</value>
 		<value condition="Container.Content(Albums) | Container.Content(Songs)">DefaultArtist.png</value>
-	</variable>	
+	</variable>
 	<variable name="MediaInfoOverlayVar">
 		<value condition="ListItem.IsCollection">flagging/video/Set.png</value>
 		<value condition="!ListItem.IsStereoscopic">$INFO[ListItem.VideoResolution,flagging/lists/,.png]</value>
@@ -2504,5 +2504,5 @@
 			<onclick>noop</onclick>
 			<visible>!IsEmpty(ListItem.Property(Role.Mixer))</visible>
 		</item>
-	</include>	
+	</include>
 </includes>

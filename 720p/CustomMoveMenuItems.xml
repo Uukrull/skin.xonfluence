@@ -438,7 +438,7 @@
 						<onclick>Dialog.Close(1128)</onclick>
 						<onclick>Skin.Reset(UsrSelectAddon)</onclick>
 						<visible>!IsEmpty(Skin.String(HomeItem.13.Path))</visible>
-					</item>					
+					</item>
 					<item id="14">
 						<description>Home Menu Item Twelve</description>
 						<label>$INFO[Skin.String(HomeItem.14.Label)]</label>
@@ -463,7 +463,7 @@
 						<onclick>Dialog.Close(1128)</onclick>
 						<onclick>Skin.Reset(UsrSelectAddon)</onclick>
 						<visible>!IsEmpty(Skin.String(HomeItem.14.Path))</visible>
-					</item>					
+					</item>
 					<item id="15">
 						<description>Home Menu Item Twelve</description>
 						<label>$INFO[Skin.String(HomeItem.15.Label)]</label>

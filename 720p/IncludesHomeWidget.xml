@@ -5622,7 +5622,7 @@
 							<bordertexture border="5">button-nofocus.png</bordertexture>
 							<include>TextureBorderWidgets</include>
 							<visible>!Control.HasFocus(8031)</visible>
-						</control>						
+						</control>
 						<control type="label">
 							<left>50</left>
 							<top>15</top>
@@ -11718,7 +11718,7 @@
 				<thumb>$INFO[Window(Home).Property(HomePlayListFifteen.10.Art(fanart))]</thumb>
 			</item>
 		</content>
-	</include>	
+	</include>
 	<include name="WeatherForecastContent">
 		<content>
 			<item>

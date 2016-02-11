@@ -387,7 +387,7 @@
 				<onclick>PlayerControl(Record)</onclick>
 				<enable>Player.CanRecord</enable>
 				<animation effect="fade" start="100" end="50" time="75" condition="!Player.CanRecord">Conditional</animation>
-				<visible>MusicPlayer.Content(LiveTV)</visible>	
+				<visible>MusicPlayer.Content(LiveTV)</visible>
 			</control>
 			<control type="button" id="206">
 				<width>55</width>

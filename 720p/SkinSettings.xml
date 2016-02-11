@@ -1517,7 +1517,7 @@
 							<width>750</width>
 							<height>480</height>
 							<itemgap>-1</itemgap>
-							<pagecontrol>60</pagecontrol>	
+							<pagecontrol>60</pagecontrol>
 							<control type="button" id="200">
 								<width>750</width>
 								<height>40</height>
@@ -3097,7 +3097,7 @@
 								<onclick>ActivateWindow(1128)</onclick>
 								<visible>!IsEmpty(Skin.String(HomeItem.15.Label))</visible>
 							</control>
-						</control>	
+						</control>
 					</control>
 					<control type="scrollbar" id="60">
 						<left>7700</left>
@@ -5493,7 +5493,7 @@
 								<onclick>SetProperty(UsrSelectBtn,UserSubFive.10,Home)</onclick>
 								<onclick>ActivateWindow(2115)</onclick>
 							</control>
-						</control>	
+						</control>
 					</control>
 					<control type="scrollbar" id="60">
 						<left>770</left>

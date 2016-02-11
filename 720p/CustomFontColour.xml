@@ -563,7 +563,8 @@
 					</item>
 					<item>
 						<label>[COLOR=lime]lime[/COLOR]</label>
-						<onclick condition="IsEmpty(Window.Property(OSDColor))">Skin.SetString(UsrColorOne,lime)</onclick>						<onclick condition="!IsEmpty(Window.Property(OSDColor))">Skin.SetString(UsrColorTwo,lime)</onclick>
+						<onclick condition="IsEmpty(Window.Property(OSDColor))">Skin.SetString(UsrColorOne,lime)</onclick>
+						<onclick condition="!IsEmpty(Window.Property(OSDColor))">Skin.SetString(UsrColorTwo,lime)</onclick>
 						<onclick>Dialog.Close(2130)</onclick>
 					</item>
 					<item>

@@ -893,8 +893,8 @@
 				<visible>[!Player.HasMedia | Skin.HasSetting(HideNowPlayingInfo)] + !Skin.HasSetting(HidePageCountInfo)</visible>
 			</control>
 		</control>
-	</include>	
-	<include name="AllWidthList">	
+	</include>
+	<include name="AllWidthList">
 		<control type="group">
 			<visible>Control.IsVisible(5060)</visible>
 			<include>VisibleFadeEffect</include>
@@ -1277,7 +1277,7 @@
 						<width>170</width>
 						<height>140</height>
 						<texture>$INFO[ListItem.Icon]</texture>
-						<visible>Control.IsVisible(5060) + IsEmpty(ListItem.PlotOutline)</visible>						
+						<visible>Control.IsVisible(5060) + IsEmpty(ListItem.PlotOutline)</visible>
 						<animation effect="fade" start="100" end="0" time="2000" condition="Player.HasVideo + System.IdleTime(10) + !Skin.HasSetting(HideNowPlayingInfo)">Conditional</animation>
 					</control>
 					<control type="label">
@@ -1316,7 +1316,7 @@
 						<height>90</height>
 						<texture>group/$INFO[ListItem.ChannelGroup].png</texture>
 						<visible>!pvr.IsPlayingRadio</visible>
-					</control>	
+					</control>
 				</control>
 				<visible>Control.IsVisible(5060)</visible>
 			</control>

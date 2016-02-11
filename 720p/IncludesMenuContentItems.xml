@@ -1550,7 +1550,7 @@
 				<onclick>Skin.SetString($INFO[Window(Home).Property(UsrSelectBtn)].Label)</onclick>
 				<include>CloseMenuChoice</include>
 				<visible>StringCompare(Window.Property(MenuItemType),LiveTVMenu)</visible>
-			</item>			
+			</item>
 			<item>
 				<description>Timer Rules</description>
 				<label>$LOCALIZE[31502] $LOCALIZE[19138]</label>
