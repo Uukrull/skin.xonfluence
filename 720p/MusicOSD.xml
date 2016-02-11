@@ -318,6 +318,15 @@
 				<onclick condition="Skin.String(OSDBtnUsrCmd)">Dialog.Close(MusicOSD,true)</onclick>
 				<onclick condition="Skin.String(OSDBtnUsrCmd)">$VAR[UsrOSDBtnCmd]</onclick>
 			</control>
+			<control type="button" id="705">
+				<width>55</width>
+				<height>55</height>
+				<label>15047</label>
+				<font>-</font>
+				<texturefocus colordiffuse="$VAR[MainColorTwo]">OSDRateFO.png</texturefocus>
+				<texturenofocus>OSDRateNF.png</texturenofocus>
+				<onclick>setrating</onclick>
+			</control>
 			<control type="button" id="700">
 				<width>55</width>
 				<height>55</height>
