@@ -55,6 +55,11 @@
 				</control>
 				<control type="label">
 					<include>WindowTitleCommons</include>
+					<label>[COLOR=$VAR[MainColorOne]] - [/COLOR]$LOCALIZE[19038]</label>
+					<visible>Window.IsActive(TVTimerRules) | Window.IsActive(RadioTimerRules)</visible>
+				</control>
+				<control type="label">
+					<include>WindowTitleCommons</include>
 					<label>[COLOR=$VAR[MainColorOne]] - [/COLOR]$LOCALIZE[137]</label>
 					<visible>Window.IsActive(TVSearch) | Window.IsActive(RadioSearch)</visible>
 				</control>
@@ -140,6 +145,14 @@
 					<onclick condition="IsEmpty(Window.Property(IsRadio))">ActivateWindow(TVTimers)</onclick>
 					<onclick condition="!IsEmpty(Window.Property(IsRadio))">ActivateWindow(RadioTimers)</onclick>
 				</control>
+				<control type="button" id="105">
+					<description>Timer Rules</description>
+					<textwidth>235</textwidth>
+					<include>ButtonCommonValues</include>
+					<label>19138</label>
+					<onclick condition="IsEmpty(Window.Property(IsRadio))">ActivateWindow(TVTimerRules)</onclick>
+					<onclick condition="!IsEmpty(Window.Property(IsRadio))">ActivateWindow(RadioTimerRules)</onclick>
+				</control>				
 				<control type="button" id="104">
 					<description>Search</description>
 					<textwidth>235</textwidth>
@@ -226,11 +239,11 @@
 					<visible>Window.IsActive(TVRecordings) | Window.IsActive(RadioRecordings)</visible>
 				</control>
 				<control type="radiobutton" id="8">
-					<description>Group timers</description>
+					<description>Hide disabled timers</description>
 					<textwidth>235</textwidth>
 					<include>ButtonCommonValues</include>
-					<label>842</label>
-					<visible>Window.IsActive(TVTimers) | Window.IsActive(RadioTimers)</visible>
+					<label>19077</label>
+					<visible>Window.IsActive(TVTimers) | Window.IsActive(RadioTimers) | Window.IsActive(TVTimerRules) | Window.IsActive(RadioTimerRules)</visible>
 				</control>
 				<!-- Playback controls -->
 				<include>CommonNowPlaying_Controls</include>

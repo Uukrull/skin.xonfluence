@@ -907,6 +907,10 @@
 	</variable>
 	<variable name="SubMenuRadioFive" type="text">
 		<value condition="!IsEmpty(Skin.String(SubRadio.5.Label))">$INFO[Skin.String(SubRadio.5.Label)]</value>
+		<value>$LOCALIZE[19138]</value>
+	</variable>
+	<variable name="SubMenuRadioSix" type="text">
+		<value condition="!IsEmpty(Skin.String(SubRadio.6.Label))">$INFO[Skin.String(SubRadio.6.Label)]</value>
 		<value>$LOCALIZE[137]</value>
 	</variable>
 	<variable name="SubMenuVideosOne" type="text">
@@ -1043,6 +1047,10 @@
 	</variable>
 	<variable name="SubMenuLiveTVFive" type="text">
 		<value condition="!IsEmpty(Skin.String(SubLiveTV.5.Label))">$INFO[Skin.String(SubLiveTV.5.Label)]</value>
+		<value>$LOCALIZE[19138]</value>
+	</variable>
+	<variable name="SubMenuLiveTVSix" type="text">
+		<value condition="!IsEmpty(Skin.String(SubLiveTV.6.Label))">$INFO[Skin.String(SubLiveTV.6.Label)]</value>
 		<value>$LOCALIZE[137]</value>
 	</variable>
 	<variable name="SubMenuSystemOne" type="text">

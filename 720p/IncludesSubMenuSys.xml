@@ -492,8 +492,8 @@
 				</control>
 				<control type="list" id="9023">
 					<include>SubMenuCommonValues</include>
-					<onleft>9022</onleft>
-					<onright>9022</onright>
+					<onleft>9023</onleft>
+					<onright>9023</onright>
 					<include>SubMenuCommonLayout</include>
 					<content>
 						<include>HomeSubMenuUserThree</include>
@@ -533,8 +533,8 @@
 				</control>
 				<control type="list" id="9024">
 					<include>SubMenuCommonValues</include>
-					<onleft>9022</onleft>
-					<onright>9022</onright>
+					<onleft>9024</onleft>
+					<onright>9024</onright>
 					<include>SubMenuCommonLayout</include>
 					<content>
 						<include>HomeSubMenuUserFour</include>
@@ -574,8 +574,8 @@
 				</control>
 				<control type="list" id="9025">
 					<include>SubMenuCommonValues</include>
-					<onleft>9022</onleft>
-					<onright>9022</onright>
+					<onleft>9025</onleft>
+					<onright>9025</onright>
 					<include>SubMenuCommonLayout</include>
 					<content>
 						<include>HomeSubMenuUserFive</include>
@@ -615,8 +615,8 @@
 				</control>
 				<control type="list" id="9026">
 					<include>SubMenuCommonValues</include>
-					<onleft>9023</onleft>
-					<onright>9023</onright>
+					<onleft>9026</onleft>
+					<onright>9026</onright>
 					<include>SubMenuCommonLayout</include>
 					<content>
 						<include>HomeSubMenuPrograms</include>
@@ -656,8 +656,8 @@
 				</control>
 				<control type="list" id="9027">
 					<include>SubMenuCommonValues</include>
-					<onleft>9024</onleft>
-					<onright>9024</onright>
+					<onleft>9027</onleft>
+					<onright>9027</onright>
 					<include>SubMenuCommonLayout</include>
 					<content>
 						<include>HomeSubMenuRadio</include>
@@ -1235,15 +1235,15 @@
 		<item>
 			<label>$VAR[SubMenuLiveTVFive]</label>
 			<onclick>SetProperty(SubMenuBackground,$VAR[SubMenuItemBackground],Home)</onclick>
-			<onclick condition="IsEmpty(Skin.String(SubLiveTV.5.Path))">ActivateWindow(TVSearch)</onclick>
+			<onclick condition="IsEmpty(Skin.String(SubLiveTV.5.Path))">ActivateWindow(TVTimerRules)</onclick>
 			<onclick condition="!IsEmpty(Skin.String(SubLiveTV.5.Path))">$INFO[Skin.String(SubLiveTV.5.Path)]</onclick>
 			<visible>!stringcompare(Skin.String(SubLiveTV.5.Path),Hidden)</visible>
 		</item>
 		<item>
-			<label>$INFO[Skin.String(SubLiveTV.6.Label)]</label>
+			<label>$VAR[SubMenuLiveTVSix]</label>
 			<onclick>SetProperty(SubMenuBackground,$VAR[SubMenuItemBackground],Home)</onclick>
-			<onclick>$INFO[Skin.String(SubLiveTV.6.Path)]</onclick>
-			<visible>!IsEmpty(Skin.String(SubLiveTV.6.Path))</visible>
+			<onclick condition="IsEmpty(Skin.String(SubLiveTV.6.Path))">ActivateWindow(TVSearch)</onclick>
+			<onclick condition="!IsEmpty(Skin.String(SubLiveTV.6.Path))">$INFO[Skin.String(SubLiveTV.6.Path)]</onclick>
 			<visible>!stringcompare(Skin.String(SubLiveTV.6.Path),Hidden)</visible>
 		</item>
 		<item>
@@ -1307,15 +1307,15 @@
 		<item>
 			<label>$VAR[SubMenuRadioFive]</label>
 			<onclick>SetProperty(SubMenuBackground,$VAR[SubMenuItemBackground],Home)</onclick>
-			<onclick condition="IsEmpty(Skin.String(SubRadio.5.Path))">ActivateWindow(RadioSearch)</onclick>
+			<onclick condition="IsEmpty(Skin.String(SubRadio.5.Path))">ActivateWindow(RadioTimerRules)</onclick>
 			<onclick condition="!IsEmpty(Skin.String(SubRadio.5.Path))">$INFO[Skin.String(SubRadio.5.Path)]</onclick>
 			<visible>!stringcompare(Skin.String(SubRadio.5.Path),Hidden)</visible>
 		</item>
 		<item>
-			<label>$INFO[Skin.String(SubRadio.6.Label)]</label>
+			<label>$VAR[SubMenuRadioSix]</label>
 			<onclick>SetProperty(SubMenuBackground,$VAR[SubMenuItemBackground],Home)</onclick>
-			<onclick>$INFO[Skin.String(SubRadio.6.Path)]</onclick>
-			<visible>!IsEmpty(Skin.String(SubRadio.6.Path))</visible>
+			<onclick condition="IsEmpty(Skin.String(SubRadio.6.Path))">ActivateWindow(RadioSearch)</onclick>
+			<onclick condition="!IsEmpty(Skin.String(SubRadio.6.Path))">$INFO[Skin.String(SubRadio.6.Path)]</onclick>
 			<visible>!stringcompare(Skin.String(SubRadio.6.Path),Hidden)</visible>
 		</item>
 		<item>
