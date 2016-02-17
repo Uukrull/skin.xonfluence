@@ -192,6 +192,7 @@
 				<font>-</font>
 				<texturefocus colordiffuse="$VAR[MainColorTwo]">OSDTeleTextFO.png</texturefocus>
 				<texturenofocus>OSDTeleTextNF.png</texturenofocus>
+				<onclick>Dialog.Close(videoosd)</onclick>
 				<onclick>ActivateWindow(Teletext)</onclick>
 				<visible>VideoPlayer.Content(LiveTV)</visible>
 			</control>
@@ -215,6 +216,11 @@
 				<width>55</width>
 				<texture>-</texture>
 				<visible>!Skin.String(OSDBtnUsrCmd)</visible>
+			</control>
+			<control type="image" id="2300">
+				<width>55</width>
+				<texture>-</texture>
+				<visible>VideoPlayer.Content(LiveTV) + !Player.CanRecord</visible>
 			</control>
 			<control type="image" id="2600">
 				<width>110</width>
